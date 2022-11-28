@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Lustrumdies C.S.A.C. F.Q.I.</title>
+    <meta name="description" content="Neem contact op met de DiesCie" />
+    <link rel="stylesheet" href="/css/simple.css"/>
+</head>
+<body>
+    <header>
+  <h1>Contact</h1>
+  <p>Neem contact op met de DiesCie</p>
+  <nav>
+  <a href="/" title="">Home</a><a href="/about" title="">Updates</a><a href="/almanak" title="">Lustrum Almanak</a><a href="/contact" title="">Contact</a>
+</nav>
+</header>
+<main>
+  <h2 id="contactformulier">Contactformulier</h2>
+
+<form name="contact" class="contact-form with normal" action="/thank-you/" method="POST" data-netlify="true">
+   <input type="hidden" name="form-name" value="contact" />
+
+   <div class="form-group">
+      <label class="col-md-4 control-label" for="Name"></label>
+      <div class="col-md-4">
+          <input id="contact-form-name" name="Name" type="text" placeholder="Naam" class="form-control input-md" required="" autocomplete="off">
+      </div>
+   </div>
+
+   <div class="form-group">
+      <label class="col-md-4 control-label" for="Email"></label>
+      <div class="col-md-4">
+          <input id="contact-form-email" name="Email" type="email" placeholder="Mail" class="form-control input-md" required="" autocomplete="off">
+      </div>
+   </div>
+
+   <div class="form-group">
+      <label class="col-md-4 control-label" for="Subject"></label>
+      <div class="col-md-4">
+          <input id="contact-form-subject" name="Subject" type="text" placeholder="Onderwerp" class="form-control input-md" required="" autocomplete="off">
+      </div>
+   </div>
+
+   <div class="form-group">
+      <label class="col-md-4 control-label" for=""></label>
+      <textarea class="form-control" id="contact-form-message" name="Message" type="text" placeholder="Bericht" rows="8"></textarea>
+   </div>
+
+   <div class="form-group">
+      <button type="submit" value="Submit" id="Form-Submit">Submit</button>
+   </div>
+</form>
+
+</main>
+    <footer>
+  <p>Deze website is gemaakt met behulp van <a href="https://gohugo.io">Hugo</a>
+  en
+  <a href="https://simplecss.org">Simple.css</a> met dank aan <a
+     href="https://kevq.uk/about/">Kev Quirk</a>.</p>
+</footer>
+</body>
+</html>
