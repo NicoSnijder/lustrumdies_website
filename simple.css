@@ -79,13 +79,11 @@ body {
 header {
   color: var(--text);
   background: url(/images/banner.png) center no-repeat;
-  background-size: 100%;
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 8rem 0.5rem;
-  width: 100%;
+  padding: 11rem 0.5rem;
+  width: 100vw;
   position: relative;
-  background-position: center;
   box-sizing: border-box;
   left: 50%;
   right: 50%;
