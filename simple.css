@@ -101,7 +101,7 @@ header p {
 
 /* Add a little padding to ensure spacing is correct between content and nav */
 main {
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 /* Fix line height when title wraps */
