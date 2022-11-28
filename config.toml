@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = 'en-us'
+title = 'Lustrumdies C.S.A.C. F.Q.I.'
+
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "about"
+    name = "Updates"
+    url = "/about"
+    weight = 20
+
+[[menu.main]]
+    identifier = "almanak"
+    name = "Lustrum Almanak"
+    url = "/almanak"
+    weight = 30
+
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
+    weight = 40
