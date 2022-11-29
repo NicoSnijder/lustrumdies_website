@@ -432,6 +432,16 @@ textarea {
   }
 }
 
+@media screen and (max-width: 640px) {
+  ul.nav li {float: none;}
+}
+.main {
+  float: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 /* Ensures the checkbox and radio inputs do not have a set width like other input fields */
 input[type="checkbox"],
 input[type="radio"] {
