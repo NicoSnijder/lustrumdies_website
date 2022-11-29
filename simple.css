@@ -70,7 +70,7 @@ body {
   flex: 1;
   margin: 0 auto;
   max-width: 37rem;
-  padding: 1 0.5rem;
+  padding: 0 0.9rem;
   overflow-x: hidden;
   word-break: break-word;
   overflow-wrap: break-word;
