@@ -48,7 +48,7 @@
 /* Make the website responsive */
 @media screen and (max-width: 100%) {
   .main {
-    width: 800px;
+    width: 37rem;
   }
 }
 @media screen and (max-width: 640px) {
