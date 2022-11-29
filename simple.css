@@ -89,6 +89,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   flex: 1;
+  margin: 0 auto;
+  max-width: 37rem;
   padding: 0 0.5rem;
   overflow-x: hidden;
   word-break: break-word;
