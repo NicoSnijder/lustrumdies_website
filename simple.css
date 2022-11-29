@@ -45,22 +45,6 @@
     --disabled: #111;
   }
 
-/* Make the website responsive */
-@media screen and (max-width: 100%) {
-  .main {
-    width: 37rem;
-  }
-}
-@media screen and (max-width: 640px) {
-  ul.nav li {float: none;}
-}
-.main {
-  float: center;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 /* Format images */
 img {
   max-width: 100%;
@@ -86,9 +70,12 @@ body {
   font-size: var(--base-fontsize);
   line-height: var(--line-height);
   text-align: justify;
+  display: flex;
   min-height: 100vh;
   flex-direction: column;
   flex: 1;
+  margin: 0 auto;
+  max-width: 37rem;
   padding: 0 0.5rem;
   overflow-x: hidden;
   word-break: break-word;
