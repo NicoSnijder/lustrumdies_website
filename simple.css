@@ -424,13 +424,13 @@ textarea {
 }
 
 /* Makes input fields wider on smaller screens */
-@media only screen and (max-width: 720px) {
+/*@media only screen and (max-width: 720px) {
   textarea,
   select,
   input {
     width: 100%;
   }
-}
+} */
 
 @media screen and (max-width: 640px) {
   ul.nav li {float: none;}
