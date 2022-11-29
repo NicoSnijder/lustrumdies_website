@@ -10,7 +10,7 @@
   --base-fontsize: 1.15rem;
 
   /* Major third scale progression - see https://type-scale.com/ */
-  --header-scale: 1.35;
+  --header-scale: 1.25;
 
   /* Line height is set to the "Golden ratio" for optimal legibility */
   --line-height: 1.618;
@@ -32,12 +32,12 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #f3efef;
+    --bg: #f3f3f3;
     --accent-bg: #232A39;
     --text: #212121;
-    --text-header: #f3efef;
+    --text-header: #7c0a02;
     --text-light: #232A39;
-    --border: #232A39;
+    --border: #407d75;
     --accent: #7c0a02;
     --accent-light: #ff4040;
     --code: #f06292;
@@ -45,10 +45,33 @@
     --disabled: #111;
   }
 
-  img,
-  video {
-    opacity: 1.0;
+/* Make the website responsive */
+@media screen and (max-width: 100%) {
+  .main {
+    width: 800px;
   }
+}
+@media screen and (max-width: 640px) {
+  ul.nav li {float: none;}
+}
+.main {
+  float: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Format images */
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: 1.0;
+}
+img.home-banner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 html {
@@ -63,12 +86,9 @@ body {
   font-size: var(--base-fontsize);
   line-height: var(--line-height);
   text-align: justify;
-  display: flex;
   min-height: 100vh;
   flex-direction: column;
   flex: 1;
-  margin: 0 auto;
-  max-width: 37rem;
   padding: 0 0.5rem;
   overflow-x: hidden;
   word-break: break-word;
