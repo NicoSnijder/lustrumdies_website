@@ -139,6 +139,16 @@ nav a.current:hover {
   text-decoration: none;
 }
 
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+  header > nav a {
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1;
+  }
+}
+
 footer {
   margin-top: 4rem;
   padding: 2rem 1rem 1.5rem 1rem;
