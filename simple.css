@@ -144,7 +144,8 @@ nav a.current:hover {
   header > nav a {
     border: none;
     padding: 0;
-    text-decoration: underline;
+    font-size: 1rem;
+    text-decoration: bold;
     line-height: 1;
   }
 }
