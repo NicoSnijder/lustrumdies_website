@@ -142,7 +142,9 @@ nav a.current:hover {
 /* Reduce nav side on mobile */
 @media only screen and (max-width: 720px) {
   header > nav a {
-    border: none;
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    display: inline-block;
     padding: 0;
     font-size: 1.15rem;
     text-decoration: bold;
