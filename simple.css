@@ -82,7 +82,7 @@ header {
   background: url(/images/banner.png) center no-repeat;
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 3rem 9.5rem;
+  padding: 4rem 9.5rem;
   width: 100vw;
   position: relative;
   box-sizing: border-box;
@@ -115,7 +115,7 @@ h3 {
 nav {
   font-size: 1rem;
   line-height: 2;
-  padding: 1rem 5;
+  padding: 9rem 0;
   position: center;
 }
 
