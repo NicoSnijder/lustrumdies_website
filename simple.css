@@ -82,7 +82,7 @@ header {
   background: url(/images/banner.png) center no-repeat;
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 6rem 2.5rem;
+  padding: 6rem 1.5rem;
   width: 100vw;
   position: relative;
   box-sizing: border-box;
