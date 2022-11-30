@@ -150,10 +150,7 @@ footer {
 
 /* Format headers */
 h1 {
-  font-size: calc(
-    var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
-      var(--header-scale) * var(--header-scale)
-  );
+  font-size: clamp(3rem, 1rem + 1 ,7rem);
   margin-top: calc(var(--line-height) * 1.5rem);
   color: var(text-header);
 }
