@@ -116,7 +116,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--main);
+  background-color: var(--bg);
 }
 li.nav {
   float: left;
@@ -130,6 +130,7 @@ li.nav a {
 }
 ul.nav li.nav a:hover:not(.active){
   background-color: var(--accent);
+  color: var(--bg);
 }
 .active {
 	background-color: var(--accent);
