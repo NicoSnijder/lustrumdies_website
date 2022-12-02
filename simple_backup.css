@@ -110,32 +110,35 @@ h3 {
   line-height: 1.1;
 }
 
-/* Format Nav Bar */
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--main);
+
+/* Format navigation */
+nav {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2;
+  padding: 4rem 0;
+  position: center;
 }
-li.nav {
-  float: left;
+
+nav a {
+  margin: 1rem 1rem 0 0;
+  border: 1px solid var(--text);
+  border-radius: 5px;
+  color: var(--text) !important;
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  text-decoration: none;
+  transition: 0.4s;
 }
-li.nav a {
-  display: block;
-  color: var(--bg);
-  text-align: center;
-  padding: 14px 16px;
+
+nav a:hover {
+  color: var(--accent) !important;
+  border-color: var(--accent);
+}
+
+nav a.current:hover {
   text-decoration: none;
 }
-ul.nav li.nav a:hover:not(.active){
-  background-color: var(--accent);
-}
-.active {
-	background-color: var(--accent);
-}
-
-
 
 /* Reduce nav side on mobile */
 @media only screen and (max-width: 720px) {
