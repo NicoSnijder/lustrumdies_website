@@ -104,7 +104,7 @@ html {
 }
 
 .toggle {
-  display: border-box;
+  display: none;
   position: flex;
   width: 100px;
   padding: 10px;
