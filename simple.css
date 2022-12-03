@@ -217,13 +217,12 @@ nav a:hover {
   nav a::before {
     content: '';
     display: block;
-    height: 3px;
+    height: 2px;
     background: var(--accent);
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    transform: scale(0, 1);
     transition: transform ease-in-out 250ms;
   }
 
