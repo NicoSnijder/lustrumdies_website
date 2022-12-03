@@ -139,6 +139,20 @@ body {
   overflow-wrap: break-word;
 }
 
+/* Make the header bg full width, but the content inline with body */
+header {
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  padding: 8rem 0.5rem;
+  width: 100vw;
+  position: relative;
+  box-sizing: border-box;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 /* Fix line height when title wraps */
 h1,
 h2,
