@@ -83,7 +83,7 @@ html {
 .menu li a:hover::after {width: 100%;}
 .open-menu , .close-menu {
     position: absolute;
-    color: var(--text);
+    color: #7c0a02;
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
