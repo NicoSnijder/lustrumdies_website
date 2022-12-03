@@ -41,24 +41,6 @@ html {
   font-family: var(--sans-font);
 }
 
-/* Make the body a nice central block */
-body {
-  color: var(--text);
-  background: var(--bg);
-  font-size: var(--base-fontsize);
-  line-height: var(--line-height);
-  text-align: justify;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  flex: 1;
-  margin: 0 auto;
-  max-width: 37rem;
-  padding: 0 0.5rem;
-  overflow-x: hidden;
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
 
 .nav-bar {
     width: 100%;
