@@ -99,6 +99,9 @@ html {
     right: 20px;
 }
 
+#checkbox {
+	display:none;
+}
 
 @media(max-width: 610px){
     .menu {
