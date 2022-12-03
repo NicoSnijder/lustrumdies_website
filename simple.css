@@ -61,6 +61,7 @@ body {
 header {
   color: var(--text);
   border-bottom: 1px solid var(--border);
+  background: var(--accent-bg);
   text-align: center;
   width: 100vw;
   position: relative;
