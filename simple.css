@@ -223,7 +223,7 @@ nav a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    transition: transform ease-in-out 250ms;
+    transition: ease-in-out 250ms;
   }
 
   nav a:hover::before {
