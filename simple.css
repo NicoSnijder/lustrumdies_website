@@ -101,7 +101,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: var(--text);
+  background: var(--bg);
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -146,7 +146,7 @@ nav li {
 }
 
 nav a {
-  color: var(--text);
+  color: var(--bg);
   text-decoration: none;
   font-weight: 600;
   font-size: 1.2rem;
@@ -156,7 +156,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--text);
+  color: var(--bg);
 }
 
 .nav-toggle:checked ~ nav {
