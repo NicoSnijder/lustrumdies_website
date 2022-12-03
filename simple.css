@@ -97,7 +97,7 @@ html {
     top: 20px;
     right: 20px;
 }
-.check {display: none;}
+#check {display: none;}
 
 @media(max-width: 610px){
     .menu {
@@ -116,5 +116,5 @@ html {
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
-    .check:checked ~ .menu {right: 0;}
+    #check:checked ~ .menu {right: 0;}
 }
