@@ -59,7 +59,7 @@ body {
 
 /* Make the header bg full width, but the content inline with body */
 header {
-  color: var(--text);
+  color: var(--bg);
   border-bottom: 1px solid var(--border);
   background: var(--accent-bg);
   text-align: center;
