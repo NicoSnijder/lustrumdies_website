@@ -98,7 +98,6 @@ html {
     top: 20px;
     right: 20px;
 }
-#check {display: none;}
 
 @media(max-width: 610px){
     .menu {
