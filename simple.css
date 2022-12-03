@@ -62,7 +62,6 @@ header {
   color: var(--text);
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 0.5rem 0.5rem;
   width: 100vw;
   position: relative;
   box-sizing: border-box;
@@ -180,7 +179,7 @@ nav a:hover {
 
   .logo {
     grid-column: 2 / 3;
-    color: var(--accent);
+    text-decoration: none;
     font-weight: 800;
   }
 
@@ -221,7 +220,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 2px;
-    background: var(--text);
+    background: var(--accent);
     position: absolute;
     bottom: 0;
     left: 0;
