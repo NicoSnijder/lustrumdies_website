@@ -91,7 +91,7 @@ html {
 
 nav {
   position: absolute;
-  text-align: left;
+  text-align: right;
   top: 100%;
   left: 0;
   background: var(--background);
