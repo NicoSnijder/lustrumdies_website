@@ -40,16 +40,6 @@ body {
 	font-weight: 400;
 }
 
-.content {
-  height: 200vh;
-  background-image: url(//unsplash.it/1000/1000);
-  background-color: #333;
-  background-blend-mode: multiply;
-  background-size: cover;
-  display: grid;
-  place-items: center;
-}
-
 /* navigation styles start here */
 
 header {
