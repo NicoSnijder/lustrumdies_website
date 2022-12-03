@@ -86,7 +86,6 @@ html {
     color: var(--text);
     cursor: pointer;
     font-size: 1.5rem;
-    display: none;
 }
 .open-menu {
     top: 50%;
@@ -109,7 +108,7 @@ html {
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: var(--text);
+        background-color: var(--bg);
         transition: all 0.2s ease-in-out;
     }
     .menu li {margin-top: 40px;}
