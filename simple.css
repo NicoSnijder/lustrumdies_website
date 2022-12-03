@@ -103,6 +103,16 @@ html {
 	display:none;
 }
 
+.toggle {
+  display: none;
+  width: 100px;
+  padding: 10px;
+  background: var(--accent);
+  color: var(--bg);
+  cursor: pointer; /* Just in case someone hovers on it ;) */
+  border-radius: 5px;
+}
+
 @media(max-width: 610px){
     .menu {
         flex-direction: column;
@@ -119,6 +129,7 @@ html {
     }
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
+    .toggle {display: border-box;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
 }
