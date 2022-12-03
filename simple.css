@@ -51,14 +51,14 @@ a {
 
 
 .header{
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--border);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
 }
 
 .hamburger {
@@ -87,15 +87,15 @@ a {
 .nav-link{
     font-size: 1.6rem;
     font-weight: 400;
-    color: var(--text);
+    color: #212121;
 }
 
 .nav-link:hover{
-    color: var(--accent);
+    color: #7c0a02;
 }
 
 .nav-logo {
     font-size: 2.1rem;
-    font-weight: 500;
-    color: var(--text-header);
+    font-weight: 600;
+    color: #7c0a02;
 }
