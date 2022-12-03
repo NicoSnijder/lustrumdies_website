@@ -220,6 +220,7 @@ nav a:hover {
     height: 3px;
     background: var(--text);
     position: absolute;
+    bottom: 0;
     left: 0;
     right: 0;
     transform: scale(0, 1);
