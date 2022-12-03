@@ -1,7 +1,33 @@
 
 :root {
-  --background: rgba(0, 214, 170, .85);
-}
+  /* Set sans-serif & mono fonts */
+  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+    "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+    "Helvetica Neue", sans-serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+
+  /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
+  --base-fontsize: 1.15rem;
+
+  /* Major third scale progression - see https://type-scale.com/ */
+  --header-scale: 1.35;
+
+  /* Line height is set to the "Golden ratio" for optimal legibility */
+  --line-height: 1.618;
+
+  /* Default (light) theme */
+    --bg: #f3efef;
+    --accent-bg: #232A39;
+    --text: #212121;
+    --text-header: #7c0a02;
+    --text-light: #232A39;
+    --border: #407d75;
+    --accent: #7c0a02;
+    --accent-light: #ff4040;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
+  }
 
 *, *::before, *::after {
   box-sizing: border-box;
