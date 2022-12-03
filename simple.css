@@ -29,22 +29,6 @@
     --disabled: #111;
   }
 
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #f3f3f3;
-    --accent-bg: #232A39;
-    --text: #212121;
-    --text-header: #7c0a02;
-    --text-light: #232A39;
-    --border: #407d75;
-    --accent: #7c0a02;
-    --accent-light: #ff4040;
-    --code: #f06292;
-    --preformatted: #ccc;
-    --disabled: #111;
-  }
-
 
 * {
     margin: 0;
@@ -67,7 +51,7 @@ a {
 
 
 .header{
-    border-bottom: 1px solid #E2E8F0;
+    border-bottom: 1px solid var(--border);
 }
 
 .navbar {
@@ -86,7 +70,6 @@ a {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
 }
