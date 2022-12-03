@@ -127,7 +127,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--background);
+  background: var(--bg);
   color: var(--bg);
   width: 100%;
   transform: scale(1, 0);
@@ -190,6 +190,7 @@ header ul {
     text-decoration: none;
     font-weight: 800;
     font-size: 2rem;
+    left: 0;
   }
 
   nav {
