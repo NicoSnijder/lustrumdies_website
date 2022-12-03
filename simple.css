@@ -103,15 +103,15 @@ header {
   display: block;
   background: var(--text);
   height: 2px;
-  width: 0;
+  width: 2em;
   border-radius: 2px;
-  position: absolute;
+  position: relative;
 }
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   content: '';
-  position: relative;
+  position: absolute;
 }
 
 .nav-toggle-label span::before {
@@ -179,7 +179,6 @@ nav a:hover {
 
   .logo {
     grid-column: 2 / 3;
-    color: var(--accent);
   }
 
   nav {
@@ -218,10 +217,9 @@ nav a:hover {
   nav a::before {
     content: '';
     display: block;
-    height: 5px;
+    height: 3px;
     background: var(--text);
     position: absolute;
-    top: -.75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
