@@ -162,10 +162,10 @@ html {
         background-color: var(--bg);
         transition: all 0.2s ease-in-out;
     }
-    .menu li {margin-top: 40px;}
+  /*  .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {right: 0;}
+    #check:checked ~ .menu {right: 0;}*/
 }
 
 /* Make the body a nice central block */
