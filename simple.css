@@ -53,9 +53,9 @@ html {
     padding: 12px 20px;
 }
 .logo {
-font-size: 1.15rem;
-    font-weight: 600;
-    color: var(--accent);
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: #7c0a02;
     }
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
