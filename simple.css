@@ -82,11 +82,12 @@ html {
 }
 .menu li a:hover::after {width: 100%;}
 
-.open-menu , .close-menu {
+.hamburger .open-menu , .close-menu {
     position: absolute;
     color: #7c0a02;
     cursor: pointer;
     font-size: 1.5rem;
+    display: none;
 }
 .open-menu {
     top: 50%;
