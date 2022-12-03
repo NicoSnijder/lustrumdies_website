@@ -99,7 +99,8 @@ html {
     right: 20px;
 }
 
-#checkbox {
+#check {
+	position: absolute;
 	display:none;
 }
 
