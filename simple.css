@@ -155,7 +155,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--accent);
+  color: var(--text);
 }
 
 .nav-toggle:checked ~ nav {
@@ -218,7 +218,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 3px;
-    background: var(--text);
+    background: var(--accent);
     position: absolute;
     bottom: 0;
     left: 0;
