@@ -60,7 +60,6 @@ body {
 /* Make the header bg full width, but the content inline with body */
 header {
   color: var(--text);
-  background: url(/images/banner.png) center no-repeat;
   border-bottom: 1px solid var(--border);
   text-align: center;
   padding: 8rem 0.5rem;
