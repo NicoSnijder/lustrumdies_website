@@ -119,7 +119,7 @@ header {
 }
 
 .nav-toggle-label span::after {
-  top: 7px;
+  bottom: 3px;
 }
 
 nav {
