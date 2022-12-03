@@ -82,7 +82,7 @@ html {
 }
 .menu li a:hover::after {width: 100%;}
 
-.open-menu , .close-menu {
+/*.open-menu , .close-menu {
     position: absolute;
     color: #7c0a02;
     cursor: pointer;
@@ -97,7 +97,7 @@ html {
 .close-menu {
     top: 20px;
     right: 20px;
-}
+}*/
 
 .hamburger{
 	position: relative;
