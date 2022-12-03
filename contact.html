@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
+<meta charset="UTF-8">
 <link href="simple.css" rel="stylesheet" type="text/css" media="all">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="images/favicon.png" />
 <title>Lustrumdies_F.Q.I</title>
-
-<h1>Lustrumdies F.Q.I.</h1>
-
-<nav>
-    <a href="index.html" class="active">Home</a>
-    <a href="about.html">Meer weten</a>
-    <a href="almanak.html">Almanak</a>
-    <a href="contact.html">Contact</a>
-</nav>
-
-
-</header>
+</head>
 
 <body>
+ <header>
+    <nav>
+        <ul class="nav-bar">
+            <a href="index.html" class="logo">F.Q.I.</a>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Meer weten</a></li>
+                <li><a href="almanak.html">Almanak</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <label for='check' class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for='check' class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
 
 	<h2>Contactformulier</h2>
 
