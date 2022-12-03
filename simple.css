@@ -84,9 +84,9 @@ html {
 
 .open-menu , .close-menu {
     position: absolute;
-    color: #7c0a02;
     cursor: pointer;
     font-size: 1.5rem;
+    color: #7c0a02;
     display: none;
 }
 .open-menu {
@@ -100,7 +100,6 @@ html {
 }
 
 #check {
-	position: absolute;
 	display:none;
 }
 
