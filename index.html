@@ -11,20 +11,17 @@
 <body>
  <header>
     <nav>
-	    <div class="logo">
+        <ul class="nav-bar">
             <a href="index.html" class="logo">F.Q.I.</a>
-	    </div>
-
-	    <div class="nav-bar">
-
-            <input type='checkbox' class="toggle-menu" >
-	    </div class="hamburger"></div>
-	    <ul class="menu">
+            <input type='checkbox' id='check' />
+            <span class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">Meer weten</a></li>
                 <li><a href="almanak.html">Almanak</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
+                <label for='check' class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for='check' class="open-menu"><i class="fas fa-bars"></i></label>
         </ul>
     </nav>
 
