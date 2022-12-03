@@ -105,6 +105,7 @@ html {
 
 .toggle {
   display: border-box;
+  position: flex;
   width: 100px;
   padding: 10px;
   background: var(--accent);
