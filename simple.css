@@ -130,7 +130,7 @@ html {
     }
     .menu li {margin-top: 40px;}
     .menu li a {padding: 10px;}
-    .toggle {display: border-box;}
+    .toggle {display: block;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
 }
