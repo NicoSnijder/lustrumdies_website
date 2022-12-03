@@ -58,6 +58,7 @@ html {
 .menu li a {
     display: inline-block;
     text-decoration: none;
+    font-weight: bold;
     color: var(--text);
     text-align: center;
     transition: 0.15s ease-in-out;
