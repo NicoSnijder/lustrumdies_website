@@ -43,7 +43,7 @@ html {
 
 
 .nav-bar {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,6 +81,7 @@ html {
     transition: 0.15s ease-in-out;
 }
 .menu li a:hover::after {width: 100%;}
+
 .open-menu , .close-menu {
     position: absolute;
     color: #7c0a02;
