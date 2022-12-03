@@ -78,6 +78,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #212121;
+
 }
 
 .nav-item {
