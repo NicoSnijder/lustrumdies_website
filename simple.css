@@ -84,7 +84,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
+  outline: 3px solid;
 }
 
 .nav-toggle-label {
@@ -119,7 +119,7 @@ header {
 }
 
 .nav-toggle-label span::after {
-  bottom: 3px;
+  top: 7px;
 }
 
 nav {
