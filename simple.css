@@ -180,7 +180,6 @@ nav a:hover {
 
   .logo {
     grid-column: 2 / 3;
-    text-decoration: none;
     color: var(--accent);
     font-weight: 800;
   }
@@ -222,7 +221,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 2px;
-    background: var(--accent);
+    background: var(--text);
     position: absolute;
     bottom: 0;
     left: 0;
