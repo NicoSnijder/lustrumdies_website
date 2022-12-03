@@ -148,6 +148,7 @@ nav li {
 nav a {
   color: var(--text);
   text-decoration: none;
+  font-weight: 600;
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0;
@@ -179,6 +180,9 @@ nav a:hover {
 
   .logo {
     grid-column: 2 / 3;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 800;
   }
 
   nav {
