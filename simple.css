@@ -1,44 +1,37 @@
-/* Set the global variables for everything. Change these to use your own fonts and colours. */
+
 :root {
-  /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-
-  /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
-  --base-fontsize: 1.15rem;
-
-  /* Major third scale progression - see https://type-scale.com/ */
-  --header-scale: 1.25;
-
-  /* Line height is set to the "Golden ratio" for optimal legibility */
-  --line-height: 1.618;
-
-  /* Default (light) theme */
-    --bg: #f3f3f3;
-    --accent-bg: #232A39;
-    --text: #212121;
-    --text-header: #7c0a02;
-    --text-light: #232A39;
-    --border: #407d75;
-    --accent: #7c0a02;
-    --accent-light: #ff4040;
-    --code: #f06292;
-    --preformatted: #ccc;
-    --disabled: #111;
-  }
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  --background: rgba(0, 214, 170, .85);
 }
 
-html {
-  /* Set the font globally */
-  font-family: var(--sans-font);
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+
+.content {
+  height: 200vh;
+  background-image: url(//unsplash.it/1000/1000);
+  background-color: #333;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+/* navigation styles start here */
+
+header {
+  background: var(--background);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 /* changed this from the tutorial video to
@@ -50,15 +43,14 @@ html {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  border: 3px solid;
-  border-color: var(--border);
+  outline: 3px solid rgba(lightblue, .75);
 }
 
 .nav-toggle-label {
   position: absolute;
   top: 0;
-  right: 0;
-  margin-right: 1em;
+  left: 0;
+  margin-left: 1em;
   height: 100%;
   display: flex;
   align-items: center;
@@ -68,7 +60,7 @@ html {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: var(--text);
+  background: white;
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -91,7 +83,7 @@ html {
 
 nav {
   position: absolute;
-  text-align: right;
+  text-align: left;
   top: 100%;
   left: 0;
   background: var(--background);
@@ -113,7 +105,7 @@ nav li {
 }
 
 nav a {
-  color: var(--text);
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -122,7 +114,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--accent);
+  color: #000;
 }
 
 .nav-toggle:checked ~ nav {
@@ -185,7 +177,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 5px;
-    background: var(--accent);
+    background: black;
     position: absolute;
     top: -.75em;
     left: 0;
