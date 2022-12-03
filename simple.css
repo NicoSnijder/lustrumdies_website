@@ -183,11 +183,11 @@ header ul {
   list-style: none;
 }
   .logo {
+    color: #7c0a02;
     grid-column: 2 / 3;
     text-decoration: none;
     font-weight: 800;
     font-size: 2rem;
-    color: var(--accent);
   }
 
   nav {
