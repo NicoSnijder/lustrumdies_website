@@ -52,7 +52,11 @@ html {
     background-color: var(--bg);
     padding: 12px 20px;
 }
-.logo img {width: 40px;}
+.logo {
+font-size: 2.1rem;
+    font-weight: 600;
+    color: var(--accent);
+    }
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
