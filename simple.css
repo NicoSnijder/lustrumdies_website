@@ -29,6 +29,7 @@
     --disabled: #111;
   }
 
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -72,8 +73,16 @@ header {
   margin-right: -50vw;
 }
 
+
 /* navigation styles start here */
 
+header {
+  background: var(--background);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
 
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
@@ -84,7 +93,7 @@ header {
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid;
+  outline: 3px solid rgba(lightblue, .75);
 }
 
 .nav-toggle-label {
@@ -101,7 +110,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: var(--bg);
+  background: white;
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -125,12 +134,9 @@ header {
 nav {
   position: absolute;
   text-align: left;
-  justify-content: space-between;
-  align-items: center;
   top: 100%;
   left: 0;
-  background: var(--bg);
-  color: var(--bg);
+  background: var(--background);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -149,9 +155,8 @@ nav li {
 }
 
 nav a {
-  color: var(--bg);
+  color: white;
   text-decoration: none;
-  font-weight: 600;
   font-size: 1.2rem;
   text-transform: uppercase;
   opacity: 0;
@@ -159,7 +164,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--bg);
+  color: #000;
 }
 
 .nav-toggle:checked ~ nav {
@@ -181,18 +186,8 @@ nav a:hover {
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
 
-header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
   .logo {
-    color: #7c0a02;
     grid-column: 2 / 3;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 2rem;
-    left: 0;
   }
 
   nav {
@@ -231,10 +226,10 @@ header ul {
   nav a::before {
     content: '';
     display: block;
-    height: 2px;
-    background: var(--accent);
+    height: 5px;
+    background: black;
     position: absolute;
-    bottom: 0;
+    top: -.75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
