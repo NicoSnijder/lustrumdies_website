@@ -92,7 +92,7 @@ header {
 .nav-toggle-label {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   margin-left: 1em;
   height: 100%;
   display: flex;
