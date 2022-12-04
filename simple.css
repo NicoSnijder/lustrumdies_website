@@ -130,6 +130,7 @@ nav {
   top: 100%;
   left: 0;
   background: var(--accent-bg);
+  color: var(--bg);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -149,7 +150,7 @@ nav li {
 }
 
 nav a {
-  background: white;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
