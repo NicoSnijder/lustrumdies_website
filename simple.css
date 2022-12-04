@@ -62,7 +62,7 @@ body {
 header {
   color: var(--bg);
   border-bottom: 1px solid var(--border);
-  padding: 0.3rem, 0.3rem;
+  padding: 0.5rem, 0.5rem;
   background: var(--accent-bg);
   text-align: center;
   width: 100vw;
