@@ -103,7 +103,7 @@ header {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background: var(--accent-bg);
+  background: var(--bg);
   height: 2px;
   width: 2em;
   border-radius: 2px;
@@ -129,7 +129,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--background);
+  background: var(--accent-bg);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
