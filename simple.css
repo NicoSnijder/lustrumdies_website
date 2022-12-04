@@ -126,6 +126,7 @@ header {
 
 nav {
   position: absolute;
+  color: var(--bg);
   text-align: left;
   top: 100%;
   left: 0;
