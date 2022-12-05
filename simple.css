@@ -173,6 +173,12 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
+.logo img {
+    grid-column: 2 / 3;
+    max-height: 10px;
+    }
+
+
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
@@ -185,7 +191,7 @@ nav a:hover {
 
   .logo img {
     grid-column: 2 / 3;
-    max-height: 50px;
+    max-height: 70px;
     }
 
   nav {
@@ -300,7 +306,7 @@ h6 {
 /* Format links & buttons */
 a,
 a:visited {
-  color: #dfb304;
+  color: #daa520;
 }
 
 a:hover {
