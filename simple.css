@@ -151,11 +151,11 @@ nav li {
 }
 
 nav a {
-  color: var(--bg);
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
+  color: var(--bg);
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
