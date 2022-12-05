@@ -297,7 +297,7 @@ h6 {
 /* Format links & buttons */
 a,
 a:visited {
-  color: var(--text);
+  color: var(--bg);
 }
 
 a:hover {
