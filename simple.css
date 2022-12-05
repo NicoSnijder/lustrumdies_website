@@ -175,7 +175,7 @@ nav a:hover {
 
 .logo img {
     grid-column: 2 / 3;
-    max-height: 10px;
+    max-height: 70px;
     }
 
 
@@ -191,7 +191,6 @@ nav a:hover {
 
   .logo img {
     grid-column: 2 / 3;
-    max-height: 70px;
     }
 
   nav {
