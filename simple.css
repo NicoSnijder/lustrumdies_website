@@ -256,7 +256,10 @@ footer {
 
 /* Format headers */
 h1 {
-  font-size: 4rem;
+  font-size: calc(
+    var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
+      var(--header-scale) * var(--header-scale)
+  );
   margin-top: calc(var(--line-height) * 0.5rem);
   margin-bottom: calc(var(--line-height) * 0.5rem);
 
