@@ -185,7 +185,7 @@ nav a:hover {
 
   .logo img {
     grid-column: 2 / 3;
-    max-height: 70px;
+    max-width: 50px;
     list-style: none;
     }
 
