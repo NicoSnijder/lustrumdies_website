@@ -129,7 +129,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--accent-bg);
+  background: var(--bg);
   color: var(--bg);
   width: 100%;
   transform: scale(1, 0);
