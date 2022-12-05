@@ -144,7 +144,7 @@ nav ul {
   color: var(--bg);
 }
 
-nav li .nav-item {
+nav li {
   margin-bottom: 1em;
   margin-left: 1em;
   color: var(--bg);
