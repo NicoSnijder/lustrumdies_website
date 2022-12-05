@@ -22,7 +22,8 @@
     --text-header: #7c0a02;
     --text-light: #232A39;
     --border: #407d75;
-    --accent: #7c0a02;
+    --accent: #680902;
+    --link: #c29423;
     --accent-light: #ff4040;
     --code: #f06292;
     --preformatted: #ccc;
@@ -305,7 +306,7 @@ h6 {
 /* Format links & buttons */
 a,
 a:visited {
-  color: #daa520;
+  color: var(--link);
 }
 
 a:hover {
