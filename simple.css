@@ -261,7 +261,7 @@ h1 {
       var(--header-scale) * var(--header-scale)
   );
   margin-top: calc(var(--line-height) * 1.5rem);
-  color: var(text-header);
+  color: #dfb304;
 }
 
 h2 {
