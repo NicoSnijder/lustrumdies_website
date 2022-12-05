@@ -185,7 +185,9 @@ nav a:hover {
 
   .logo img {
     grid-column: 2 / 3;
-    max-height: 50px }
+    max-height: 70px;
+    list-style: none;
+    }
 
   nav {
     // all: unset; /* this causes issues with Edge, since it's unsupported */
