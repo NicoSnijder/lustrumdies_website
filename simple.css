@@ -129,7 +129,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--bg);
+  background: var(--accent-bg);
   color: var(--bg);
   width: 100%;
   transform: scale(1, 0);
@@ -144,18 +144,18 @@ nav ul {
   color: var(--bg);
 }
 
-nav li {
+.nav-item li {
   margin-bottom: 1em;
   margin-left: 1em;
   color: var(--bg);
 }
 
 nav a {
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: var(--bg);
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -297,7 +297,7 @@ h6 {
 /* Format links & buttons */
 a,
 a:visited {
-  color: var(--bg);
+  color: var(--text);
 }
 
 a:hover {
