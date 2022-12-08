@@ -233,7 +233,7 @@ nav a:hover {
     height: 3px;
     background: var(--link);
     position: absolute;
-    bottom: -.55em;
+    bottom: -.35em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
