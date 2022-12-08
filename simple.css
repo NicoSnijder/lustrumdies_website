@@ -231,7 +231,7 @@ nav a:hover {
     content: '';
     display: block;
     height: 5px;
-    background: var(--accent);
+    background: var(--bg);
     position: absolute;
     bottom: -.75em;
     left: 0;
