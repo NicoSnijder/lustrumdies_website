@@ -230,10 +230,10 @@ nav a:hover {
   nav a::before {
     content: '';
     display: block;
-    height: 5px;
-    background: var(--bg);
+    height: 3px;
+    background: var(--link);
     position: absolute;
-    bottom: -.75em;
+    bottom: -.55em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
