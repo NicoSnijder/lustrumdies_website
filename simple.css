@@ -21,7 +21,8 @@
     --text: #212121;
     --text-header: #7c0a02;
     --text-light: #232A39;
-    --border: #232A39;
+    /*--border: #232A39;*/
+    --border: #680902;
     --accent: #680902;
     --link: #c29423;
     --accent-light: #ff4040;
