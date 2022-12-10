@@ -651,3 +651,8 @@ pre code {
   margin: 0;
   padding: 0;
 }
+
+::selection {
+  background: var(--accent-bg);
+  color: var(--bg);
+}
