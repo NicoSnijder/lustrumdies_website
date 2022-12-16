@@ -128,9 +128,9 @@ header {
 
 nav {
   position: absolute;
-  text-align: right;
+  text-align: center;
   top: 100%;
-  right: 0.5rem;
+  left: 0;
   background: var(--accent-bg);
   color: var(--bg);
   width: 100%;
@@ -176,7 +176,8 @@ nav a:hover {
 }
 
 .logo img {
-    grid-column: 2 / 3;
+    position: absolute;
+    text-align : center;
     max-height: 90px;
     }
 
