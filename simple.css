@@ -450,11 +450,11 @@ input {
   margin-bottom: 0.5rem;
   color: var(--text);
   background: var(--bg);
-  border: 1px solid var(--border);
+  border: 1px solid var(--text);
   border-radius: 5px;
   box-shadow: none;
   box-sizing: border-box;
-  max-width: 80%;
+  width: 80%;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
