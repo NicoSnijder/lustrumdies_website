@@ -130,7 +130,7 @@ nav {
   position: absolute;
   text-align: right;
   top: 100%;
-  left: 0;
+  right: 0.5rem;
   background: var(--accent-bg);
   color: var(--bg);
   width: 100%;
