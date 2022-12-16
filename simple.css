@@ -180,11 +180,6 @@ nav a:hover {
     max-height: 90px;
     }
 
-.logo img:hover {
-	color: var(--link);
-    }
-
-
 
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
