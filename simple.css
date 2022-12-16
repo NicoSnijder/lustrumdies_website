@@ -312,6 +312,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+  color: var(--accent-bg);
 }
 
 a button,
