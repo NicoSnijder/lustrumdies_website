@@ -148,7 +148,7 @@ nav ul {
 
 nav li {
   margin-bottom: 1em;
-  margin-left: 1em;
+  margin-left: 0em;
   color: var(--bg);
 }
 
@@ -177,7 +177,6 @@ nav a:hover {
 
 .logo img {
     grid-column: 2 / 3;
-    padding: 0.2em 0 0 0;
     max-height: 90px;
     }
 
