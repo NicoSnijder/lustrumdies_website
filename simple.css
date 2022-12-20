@@ -665,6 +665,16 @@ pre code {
     TIMELINE
 ==================================*/
 
+.container-fluid {
+    .row {
+        padding: 0 0 4em 0;
+        &:nth-child(even) {
+            background: var(--accent-bg);
+        }
+    }
+}
+
+
 /*-- GENERAL STYLES
 ------------------------------*/
 .timeline {
@@ -721,7 +731,7 @@ pre code {
     &:after {
         content: "";
         width: 3px;
-        background: var(--bg);
+        background: var(--accent);
         display: block;
         position: absolute;
         top: 24px; bottom: 0; left: 6px;
