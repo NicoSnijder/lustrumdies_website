@@ -679,7 +679,7 @@ pre code {
 	border-left: 2px solid var(--border);
 
 	&::before {
-		content: attr(date-is);
+		content: '';
 		position: absolute;
 		left: 2em;
 		font-weight: bold;
@@ -691,6 +691,7 @@ pre code {
 	}
 
 	&::after {
+		content: '';
 		width: 10px;
 		height: 10px;
 		display: block;
@@ -698,7 +699,6 @@ pre code {
 		position: absolute;
 		left: -7px;
 		border-radius: 10px;
-		content: '';
 		border: 2px solid var(--border);
 		background: var(--bg);
 	}
