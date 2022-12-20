@@ -279,7 +279,7 @@ h2 {
     var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
       var(--header-scale)
   );
-  margin-top: calc(var(--line-height) * 1.25rem);
+  margin-top: calc(var(--line-height) * 1.5rem);
 }
 
 h3 {
@@ -656,4 +656,48 @@ pre code {
 ::selection {
   background: var(--accent-bg);
   color: var(--bg);
+}
+
+// ----------------  LAYOUT
+
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+// ----------------  THE FONTS
+
+
+.timeline-item {
+	padding: 3em 2em 2em;
+	position: relative;
+	color: var(--text);
+	border-left: 2px solid var(--border);
+
+	&::before {
+		content: attr(date-is);
+		position: absolute;
+		left: 2em;
+		font-weight: bold;
+		top: 1em;
+		display: block;
+		font-family: 'Alagreya', sans-serif;
+		font-weight: 700;
+		font-size: .785rem;
+	}
+
+	&::after {
+		width: 10px;
+		height: 10px;
+		display: block;
+		top: 1em;
+		position: absolute;
+		left: -7px;
+		border-radius: 10px;
+		content: '';
+		border: 2px solid var(--border);
+		background: var(--bg);
+	}
+
 }
