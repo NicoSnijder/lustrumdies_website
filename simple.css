@@ -717,12 +717,12 @@ pre code {
 }
 
 .timeline-content span {
-   font-size: 15px;
+   font-size: calc(var(--base-fontsize) / var(--header-scale));
+   margin-top: calc(var(--line-height) * 1.5rem);
    color: var(--text);
 }
 
 .timeline-content p {
-   line-height: var(--lineheight);
    color: var(--text);
 }
 
