@@ -294,7 +294,7 @@ h4 {
   margin-top: calc(var(--line-height) * 1.5rem);
   margin-bottom: calc(var(--line-height) * 0.2rem);
 
-  color: var(--accent-bg);
+  color: var(--text);
 }
 
 h5 {
@@ -702,5 +702,7 @@ pre code {
 		border: 2px solid var(--border);
 		background: var(--bg);
 	}
-
+&:last-child {
+		border-image: var(--text);
+	}
 }
