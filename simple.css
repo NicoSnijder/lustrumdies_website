@@ -178,7 +178,6 @@ nav a:hover {
 .logo img {
     grid-column: 2 / 3;
     max-height: 90px;
-    top: 0.2;
     }
 
 
@@ -714,7 +713,7 @@ pre code {
    margin-top: 5px;
    margin-bottom: 5px;
    font-size: 25px;
-   font-weight: 500
+   font-weight: 800
 }
 
 .timeline-content span {
