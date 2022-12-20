@@ -684,7 +684,13 @@ pre code {
 
 .timeline-block {
    width: calc(10% + 8px);
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
    display: flex;
+   -webkit-box-pack: justify;
+   -webkit-justify-content: space-between;
+   -moz-box-pack: justify;
    justify-content: space-between;
    clear: both;
 }
