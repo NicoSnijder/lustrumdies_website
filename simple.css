@@ -64,7 +64,7 @@ body {
 header {
   color: var(--bg);
   border-bottom: 1px solid var(--border);
-  padding: 0.2rem, 4.2rem;
+  padding: 0.2rem, 0.2rem;
   background: var(--accent-bg);
   text-align: center;
   width: 100vw;
@@ -178,6 +178,7 @@ nav a:hover {
 .logo img {
     grid-column: 2 / 3;
     max-height: 90px;
+    padding: 0 0.5;
     }
 
 
