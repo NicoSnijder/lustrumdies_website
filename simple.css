@@ -178,7 +178,7 @@ nav a:hover {
 .logo img {
     grid-column: 2 / 3;
     max-height: 90px;
-    padding: 0 0.5;
+    padding: 5 0.5;
     }
 
 
