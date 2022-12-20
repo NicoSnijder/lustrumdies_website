@@ -706,7 +706,7 @@ pre code {
 .timeline-content {
    width: 95%;
    padding: 0 15px;
-   color: #666
+   color: var(--text);
 }
 
 .timeline-content h3 {
