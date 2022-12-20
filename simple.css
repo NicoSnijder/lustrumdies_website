@@ -679,7 +679,7 @@ pre code {
    width: 2px;
    height: 100%;
    background: #CCD1D9;
-   z-index: 1
+   z-index: 0
 }
 
 .timeline-block {
