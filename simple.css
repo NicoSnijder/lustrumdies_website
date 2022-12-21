@@ -764,6 +764,9 @@ pre code {
    justify-content: center;
    left: 50%;
    right: 50%;
+   margin-left: -50vw;
+   margin-right: -50vw;
+
 
 }
 .image-grid{
