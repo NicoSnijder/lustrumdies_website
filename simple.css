@@ -778,6 +778,7 @@ pre code {
 	grid-template-columns: repeat(var(--num-cols), 1fr);
 	grid-auto-rows: var(--row-height);
 	gap: var(--gap);
+	align-content: center;
 }
 
 .image-grid>img {
