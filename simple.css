@@ -779,7 +779,7 @@ pre code {
 .image-grid>img {
 	max-width: 350px;
 	height:auto;
-	object-fit: none;
+	object-fit: contain;
 }
 @media screen and (min-width: 800px) {
 
@@ -799,6 +799,6 @@ pre code {
 .image-grid>img {
 	width: 350px;
 	height:auto;
-	object-fit: none;
+	object-fit: contain;
 }
 }
