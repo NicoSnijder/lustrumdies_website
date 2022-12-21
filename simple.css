@@ -226,7 +226,7 @@ nav a:hover {
 
   nav a {
     opacity: 1;
-    position: sticky;
+    position: relative;
   }
 
   nav a::before {
@@ -699,6 +699,7 @@ pre code {
    border-radius: 50%;
    border: 2px solid var(--accent-bg);
    margin-top: 10px;
+   margin-bottom: 10px;
    position: relative;
    z-index: 9999;
    }
