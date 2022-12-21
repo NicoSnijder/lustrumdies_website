@@ -756,7 +756,7 @@ pre code {
 }
 
 .container-foto {
-   width: 150%;
+   width: 100vw;
    padding: 10px 0;
    margin: 10px auto;
    position: relative;
