@@ -679,7 +679,7 @@ pre code {
    width: 2px;
    height: 100%;
    background: var(--text);
-   z-index: 1
+   z-index: 9999
 }
 
 .timeline-block {
@@ -709,7 +709,7 @@ pre code {
 	border: 2px solid var(--bg);
 	background: var(--bg);
    	margin-top: 10px;
-   	z-index: 9999
+   	z-index: 1
 }
 .timeline-content {
    width: 100%;
