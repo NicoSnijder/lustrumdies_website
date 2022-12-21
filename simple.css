@@ -704,7 +704,7 @@ pre code {
    border-radius: 50%;
    border: 2px solid var(--bg);
    margin-top: 10px;
-   position: absolute;
+   position: relative;
    z-index: 9999;
 }
 
