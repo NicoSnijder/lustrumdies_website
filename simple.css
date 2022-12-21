@@ -679,7 +679,7 @@ pre code {
    width: 2px;
    height: 100%;
    background: var(--text);
-   z-index: 9999
+   z-index: 1
 }
 
 .timeline-block {
@@ -693,7 +693,7 @@ pre code {
    float: right;
 }
 
-/*.marker {
+.marker {
    width: 16px;
    height: 16px;
    border-radius: 50%;
@@ -701,16 +701,25 @@ pre code {
    background: var(--text-header);
    margin-top: 10px;
    z-index: 9999
-}*/
+}
 
-.marker img{
+.logo_timeline img{
+	width: 60px;
+   	border-radius: 50%;
+	border: 2px solid var(--bg);
+	background: var(--bg);
+   	margin-top: 10px;
+}
+
+/*.marker img{
 	width: 60px;
    	border-radius: 50%;
 	border: 2px solid var(--bg);
 	background: var(--bg);
    	margin-top: 10px;
    	z-index: 1
-}
+}*/
+
 .timeline-content {
    width: 100%;
    padding: 0 15px;
