@@ -693,11 +693,11 @@ pre code {
    float: right;
 }
 
-/*.logo_timeline img{
+.marker img{
 	width: 6px;
    	margin-top: 10px;
    	z-index: 9999;
-}*/
+}
 
 .marker {
    width: 16px;
