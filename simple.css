@@ -693,6 +693,12 @@ pre code {
    float: right;
 }
 
+ul .marker{
+width: 150px;
+   list-style-image: url("images/logo_timeline.svg");
+   background: var(--bg);
+}
+
 .marker {
    width: 16px;
    height: 16px;
