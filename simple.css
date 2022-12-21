@@ -756,23 +756,11 @@ pre code {
 }
 
 .container-foto {
-   width: 100%;
-   padding: 50px 0;
-   margin: 50px auto;
+   width: 110%;
+   padding: 0px 0;
+   margin: 0px auto;
    position: relative;
    overflow: hidden;
-}
-
-.container-foto:before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 10%;
-   margin-left: -1px;
-   width: 2px;
-   height: 100%;
-   background: var(--text);
-   z-index: 1;
 }
 
 
