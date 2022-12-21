@@ -693,13 +693,13 @@ pre code {
    float: right;
 }
 
-.marker img{
+/*.marker img{
 	width: 6px;
    	margin-top: 10px;
    	z-index: 9999;
-}
+}*/
 
-.marker {
+.marker img {
    width: 16px;
    height: 16px;
    border-radius: 50%;
