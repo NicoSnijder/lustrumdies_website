@@ -705,10 +705,8 @@ pre code {
 
 .logo_timeline img{
 	width: 6px;
-   	border-radius: 50%;
-	border: 2px solid var(--bg);
-	background: var(--bg);
    	margin-top: 10px;
+   	z-index: 9999
 }
 
 /*.marker img{
