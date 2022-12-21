@@ -683,7 +683,7 @@ pre code {
 }
 
 .timeline-block {
-   width: calc(98% + 30px);
+   width: calc(98% + 25px);
    display: flex;
    justify-content: space-between;
    clear: both;
@@ -702,6 +702,7 @@ pre code {
 .marker img {
    width: 80px;
    border-radius: 50%;
+   border: 4px solid var(--accent-bg);
    margin-top: 10px;
    position: relative;
    z-index: 9999;
