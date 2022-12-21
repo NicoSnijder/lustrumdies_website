@@ -679,7 +679,7 @@ pre code {
    width: 2px;
    height: 100%;
    background: var(--text);
-   z-index: 1
+   z-index: 1;
 }
 
 .timeline-block {
@@ -696,7 +696,7 @@ pre code {
 .logo_timeline img{
 	width: 6px;
    	margin-top: 10px;
-   	z-index: 9999
+   	z-index: 9999;
 }
 .marker {
    width: 16px;
@@ -705,7 +705,7 @@ pre code {
    border: 2px solid var(--bg);
    background: var(--text-header);
    margin-top: 10px;
-   z-index: 9999
+   z-index: 9999;
 }
 
 
