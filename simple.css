@@ -693,6 +693,11 @@ pre code {
    float: right;
 }
 
+.logo_timeline img{
+	width: 6px;
+   	margin-top: 10px;
+   	z-index: 9999
+}
 .marker {
    width: 16px;
    height: 16px;
@@ -703,11 +708,7 @@ pre code {
    z-index: 9999
 }
 
-.logo_timeline img{
-	width: 6px;
-   	margin-top: 10px;
-   	z-index: 9999
-}
+
 
 /*.marker img{
 	width: 60px;
