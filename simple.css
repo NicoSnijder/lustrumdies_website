@@ -748,3 +748,20 @@ pre code {
    z-index: 9999;
    }
 }
+
+/*=============================
+	GALLERY
+=============================*/
+
+.gallery{
+	max-width: 1200px;
+	line-height:0;
+	column-count:5;
+	column-gap:5px;
+}
+
+.gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
