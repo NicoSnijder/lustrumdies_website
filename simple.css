@@ -757,13 +757,13 @@ pre code {
 
 .container-foto {
   text-align: center;
-  width: 10vw;
+  width: 100vw;
   position: relative;
   box-sizing: border-box;
   left: 50%;
   right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-left: -30vw;
+  margin-right: -30vw;
 }
 
 
