@@ -777,7 +777,7 @@ pre code {
 }
 
 .image-grid>img {
-	max-width: 350px;
+	width: auto;
 	height:auto;
 	object-fit: contain;
 }
@@ -797,7 +797,7 @@ pre code {
 }
 
 .image-grid>img {
-	width: 350px;
+	width: auto;
 	height:auto;
 	object-fit: contain;
 }
