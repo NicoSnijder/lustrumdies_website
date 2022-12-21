@@ -700,10 +700,9 @@ pre code {
 }*/
 
 .marker img {
-   width: 56px;
+   width: 80px;
    border-radius: 50%;
    border: 2px solid var(--bg);
-   background: var(--text-header);
    margin-top: 10px;
    z-index: 9999;
 }
