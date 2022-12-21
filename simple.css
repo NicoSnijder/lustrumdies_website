@@ -674,7 +674,7 @@ pre code {
    content: '';
    position: absolute;
    top: 0;
-   left: 15%;
+   left: 10%;
    margin-left: -1px;
    width: 2px;
    height: 100%;
@@ -693,31 +693,14 @@ pre code {
    float: right;
 }
 
-/*.marker img{
-	width: 6px;
-   	margin-top: 10px;
-   	z-index: 9999;
-}*/
-
-.marker img {
-   width: 80px;
+   .marker img {
+   max-width: 20px;
    border-radius: 50%;
-   border: 4px solid var(--accent-bg);
+   border: 2px solid var(--accent-bg);
    margin-top: 10px;
    position: relative;
    z-index: 9999;
-}
-
-
-
-/*.marker img{
-	width: 60px;
-   	border-radius: 50%;
-	border: 2px solid var(--bg);
-	background: var(--bg);
-   	margin-top: 10px;
-   	z-index: 1
-}*/
+   }
 
 .timeline-content {
    width: 100%;
@@ -756,8 +739,12 @@ pre code {
       float: none;
    }
 
-   .timeline-block-left {
-      float: none;
-      direction: ltr;
+   .marker img {
+   max-width: 80px;
+   border-radius: 50%;
+   border: 4px solid var(--accent-bg);
+   margin-top: 10px;
+   position: relative;
+   z-index: 9999;
    }
 }
