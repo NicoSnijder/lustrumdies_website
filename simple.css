@@ -756,15 +756,13 @@ pre code {
 }
 
 .container-foto {
-   width: 100vw;
+   width: 150%;
    padding: 10px 0;
    margin: 10px auto;
    position: relative;
    overflow: hidden;
    left: 50%;
    right: 50%;
-   margin-left: -50vw;
-   margin-right: -50vw;
 
 
 }
