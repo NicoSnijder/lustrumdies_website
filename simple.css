@@ -694,9 +694,9 @@ pre code {
 }
 
    .marker img {
-   max-width: 20px;
+   max-width: 40px;
    border-radius: 50%;
-   border: 2px solid var(--accent-bg);
+   border: 1px solid var(--accent-bg);
    margin-top: 10px;
    position: relative;
    z-index: 9999;
