@@ -705,11 +705,11 @@ pre code {
 
 .marker img{
 	width: 60px;
+   	border-radius: 50%;
 	border: 2px solid var(--bg);
 	background: var(--bg);
    	margin-top: 10px;
    	z-index: 9999
-
 }
 .timeline-content {
    width: 100%;
