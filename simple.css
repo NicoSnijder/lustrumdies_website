@@ -778,7 +778,7 @@ pre code {
 
 .image-grid>img {
 	width: auto;
-	height:auto;
+	height: 200px;
 	object-fit: contain;
 }
 @media screen and (min-width: 800px) {
@@ -798,7 +798,7 @@ pre code {
 
 .image-grid>img {
 	width: auto;
-	height:auto;
+	height: 300px;
 	object-fit: contain;
 }
 }
