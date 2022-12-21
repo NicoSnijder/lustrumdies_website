@@ -756,10 +756,10 @@ pre code {
 }
 
 .container-foto {
-   width: 200%;
+   width: 150%;
    padding: 10px 0;
    margin: 10px auto;
-   position: relative;
+   position: center;
    overflow: hidden;
 }
 .image-grid{
