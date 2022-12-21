@@ -759,7 +759,7 @@ pre code {
    width: 150%;
    padding: 10px 0;
    margin: 10px auto;
-   position: center;
+   position: absolute;
    overflow: hidden;
 }
 .image-grid{
