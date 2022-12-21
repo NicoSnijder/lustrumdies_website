@@ -693,7 +693,7 @@ pre code {
    float: right;
 }
 
-.marker {
+/*.marker {
    width: 16px;
    height: 16px;
    border-radius: 50%;
@@ -701,8 +701,15 @@ pre code {
    background: var(--text-header);
    margin-top: 10px;
    z-index: 9999
-}
+}*/
 
+.marker img{
+	width: 30px;
+	background: var(--text-header);
+   	margin-top: 10px;
+   	z-index: 9999
+
+}
 .timeline-content {
    width: 100%;
    padding: 0 15px;
