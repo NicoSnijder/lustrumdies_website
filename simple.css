@@ -200,7 +200,7 @@ nav a:hover {
     // all: unset; /* this causes issues with Edge, since it's unsupported */
 
     /* the following lines are not from my video, but add Edge support */
-    position: relative;
+    position: sticky;
     text-align: left;
     transition: none;
     transform: scale(1,1);
@@ -697,7 +697,7 @@ pre code {
    .marker img {
    max-width: 100px;
    border-radius: 50%;
-   border: 4px solid var(--accent-bg);
+   border: 2px solid var(--accent-bg);
    margin-top: 10px;
    position: relative;
    z-index: 9999;
