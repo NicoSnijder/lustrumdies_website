@@ -755,6 +755,13 @@ pre code {
    }
 }
 
+.container-foto {
+   width: 200%;
+   padding: 10px 0;
+   margin: 10px auto;
+   position: relative;
+   overflow: hidden;
+}
 .image-grid{
 	--gap: 16px;
 	--num-cols: 2;
