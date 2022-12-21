@@ -672,7 +672,7 @@ pre code {
 
 .container:before {
    content: '';
-   position: relative;
+   position: absolute;
    top: 0;
    left: 5%;
    margin-left: -1px;
@@ -704,6 +704,7 @@ pre code {
    border-radius: 50%;
    border: 2px solid var(--bg);
    margin-top: 10px;
+   position: absolute;
    z-index: 9999;
 }
 
