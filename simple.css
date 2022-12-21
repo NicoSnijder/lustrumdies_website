@@ -226,7 +226,7 @@ nav a:hover {
 
   nav a {
     opacity: 1;
-    position: relative;
+    position: sticky;
   }
 
   nav a::before {
@@ -234,7 +234,7 @@ nav a:hover {
     display: block;
     height: 3px;
     background: var(--link);
-    position: sticky;
+    position: absolute;
     bottom: -.35em;
     left: 0;
     right: 0;
