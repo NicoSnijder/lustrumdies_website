@@ -700,8 +700,7 @@ pre code {
 }*/
 
 .marker img {
-   width: 16px;
-   height: 16px;
+   width: 56px;
    border-radius: 50%;
    border: 2px solid var(--bg);
    background: var(--text-header);
