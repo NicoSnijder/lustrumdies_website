@@ -756,13 +756,17 @@ pre code {
 }
 
 .container-foto {
-   width: 100vw;
-   padding: 10px 0;
-   margin: 10px auto;
-   position: relative;
-   overflow: hidden;
-
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  box-sizing: border-box;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
+
+
 .image-grid{
 	--gap: 16px;
 	--num-cols: 2;
