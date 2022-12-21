@@ -759,8 +759,9 @@ pre code {
    width: 150%;
    padding: 10px 0;
    margin: 10px auto;
-   position: absolute;
+   position: relative;
    overflow: hidden;
+   justify-content: center;
 }
 .image-grid{
 	--gap: 16px;
