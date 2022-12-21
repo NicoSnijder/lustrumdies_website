@@ -762,7 +762,7 @@ pre code {
 }
 
 .foto img{
-	width: 100% !important;
+	width: 50% !important;
 	height: auto !important;
 	margin-bottom:5px; /* to match column gap */
 }
