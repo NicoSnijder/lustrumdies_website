@@ -761,8 +761,8 @@ pre code {
    margin: 10px auto;
    position: relative;
    overflow: hidden;
-   left: 50%;
-   right: 50%;
+   left: 20%;
+   right: 20%;
 
 
 }
@@ -773,7 +773,6 @@ pre code {
 	box-sizing: border-box;
 	padding: var(--gap);
 	display:grid;
-	align-content: center;
 	grid-template-columns: repeat(var(--num-cols), 1fr);
 	grid-auto-rows: var(--row-height);
 	gap: var(--gap);
