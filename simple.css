@@ -683,7 +683,7 @@ pre code {
 }
 
 .timeline-block {
-   width: calc(90% + 25px);
+   width: calc(85% + 25px);
    display: flex;
    justify-content: space-between;
    clear: both;
