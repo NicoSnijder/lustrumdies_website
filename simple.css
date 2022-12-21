@@ -698,7 +698,7 @@ pre code {
    height: 16px;
    border-radius: 50%;
    border: 2px solid var(--bg);
-   background: var(--accent-light);
+   background: var(--text-header);
    margin-top: 10px;
    z-index: 9999
 }
