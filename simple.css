@@ -756,7 +756,7 @@ pre code {
 }
 
 .container-foto {
-   width: 110%;
+   width: 100%;
    padding: 0px 0;
    margin: 0px auto;
    position: relative;
@@ -765,7 +765,7 @@ pre code {
 
 
 .image-grid{
-	--gap: 16px;
+	--gap: 8px;
 	--num-cols: 2;
 	--row-height: 300px;
 	box-sizing: border-box;
@@ -778,7 +778,7 @@ pre code {
 }
 
 .image-grid>img {
-	width: auto;
-	height:100%;
+	width: 350px;
+	height:auto;
 	object-fit: cover;
 }
