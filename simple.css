@@ -761,8 +761,8 @@ pre code {
    margin: 10px auto;
    position: relative;
    overflow: hidden;
-   margin-left: -50vw;
-   margin-right: -50vw;
+   margin-left: 10vw;
+   margin-right: 10vw;
 
 }
 .image-grid{
