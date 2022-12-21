@@ -704,7 +704,8 @@ pre code {
 }*/
 
 .marker img{
-	width: 16px;
+	width: 40px;
+	border: 2px solid var(--bg);
 	background: var(--bg);
    	margin-top: 10px;
    	z-index: 9999
