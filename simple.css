@@ -789,7 +789,7 @@ pre code {
 	--row-height: 300px;
 	box-sizing: border-box;
 	padding: var(--gap);
-	margin: 8px;
+	bottom: 8px;
 	display:grid;
 	grid-template-columns: repeat(var(--num-cols), 1fr);
 	grid-auto-rows: var(--row-height);
