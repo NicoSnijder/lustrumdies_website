@@ -768,25 +768,7 @@ pre code {
 }
 
 .image-grid>img {
-	width: 100%;
-	height:auto;
+	width: auto;
+	height:100%;
 	object-fit: cover;
-}
-
-@media screen and (max-width: 1024px) {
-	.image-grid{
-		--num-cols: 2;
-		--row-height: 200px;
-	}
-}
-.foto{
-	line-height: 0;
-	column-count:2;
-	column-gap:5px;
-}
-
-.foto img{
-	width: 100% !important;
-	height: auto !important;
-	margin-bottom:5px; /* to match column gap */
 }
