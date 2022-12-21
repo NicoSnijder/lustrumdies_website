@@ -674,7 +674,7 @@ pre code {
    content: '';
    position: absolute;
    top: 0;
-   left: 12%;
+   left: 10%;
    margin-left: -1px;
    width: 2px;
    height: 100%;
@@ -728,7 +728,7 @@ pre code {
 
 @media screen and (max-width: 768px) {
    .container:before {
-      left: 24px;
+      left: 25px;
       width: 2px;
    }
    .timeline-block {
