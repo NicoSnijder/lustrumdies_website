@@ -789,7 +789,6 @@ pre code {
 	--row-height: 300px;
 	box-sizing: border-box;
 	padding: var(--gap);
-	bottom: 8px;
 	display:grid;
 	grid-template-columns: repeat(var(--num-cols), 1fr);
 	grid-auto-rows: var(--row-height);
@@ -801,5 +800,6 @@ pre code {
 	width: 350px;
 	height:auto;
 	object-fit: cover;
+	margin-bottom: 8px;
 }
 }
