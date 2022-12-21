@@ -763,7 +763,7 @@ pre code {
   box-sizing: border-box;
   left: 50%;
   right: 50%;
-  align-content: center;
+  align-content: left;
 }
 
 
