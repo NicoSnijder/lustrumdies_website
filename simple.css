@@ -698,8 +698,7 @@ pre code {
    max-width: 100px;
    border-radius: 50%;
    border: 2px solid var(--text);
-   margin-top: 10px;
-   margin-bottom: 10px;
+   margin-bottom: 9px;
    position: relative;
    z-index: 9999;
    }
