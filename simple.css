@@ -765,12 +765,12 @@ pre code {
 }
 .image-grid{
 	--gap: 16px;
-	--num-cols: 2;
+	/*--num-cols: 2;*/
 	--row-height: 300px;
 	box-sizing: border-box;
 	padding: var(--gap);
 	display:grid;
-	grid-template-columns: repeat(var(--num-cols), 1fr);
+	/*grid-template-columns: repeat(var(--num-cols), 1fr);*/
 	grid-auto-rows: var(--row-height);
 	gap: var(--gap);
 }
