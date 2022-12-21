@@ -674,7 +674,7 @@ pre code {
    content: '';
    position: absolute;
    top: 0;
-   left: 10%;
+   left: 5%;
    margin-left: -1px;
    width: 2px;
    height: 100%;
@@ -683,7 +683,7 @@ pre code {
 }
 
 .timeline-block {
-   width: calc(95% + 8px);
+   width: calc(99% + 8px);
    display: flex;
    justify-content: space-between;
    clear: both;
