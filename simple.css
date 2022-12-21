@@ -756,12 +756,15 @@ pre code {
 }
 
 .container-foto {
+	all:unset;
   text-align: center;
   width: 100vw;
   position: relative;
   box-sizing: border-box;
   left: 50%;
   right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 
