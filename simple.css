@@ -695,7 +695,7 @@ pre code {
 }
 
    .marker img {
-   max-width: 100px;
+   max-width: 80px;
    border-radius: 50%;
    border: 2px solid var(--text);
    position: relative;
