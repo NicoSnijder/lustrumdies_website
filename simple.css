@@ -79,15 +79,7 @@ header {
 
 /* navigation styles start here */
 
-.sticky-section{
-  overflow:hidden;
-  background-color:var(--accent-bg);
-  margin-bottom:50px;
-  width:100%;
-  color:var(--bg);
-  position:sticky;
-  top:0px;
-}
+
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .nav-toggle {
