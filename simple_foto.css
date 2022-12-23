@@ -706,7 +706,7 @@ pre code {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 1;
-	--row-height: 300px;
+	--row-height: 250px;
 	box-sizing: border-box;
 	padding: var(--gap);
 	display:grid;
@@ -718,7 +718,7 @@ pre code {
 
 .image-grid>img {
 	width: auto;
-	height: 300px;
+	height: 250px;
 	object-fit: contain;
 	border-radius: 5px;
 
@@ -729,7 +729,7 @@ pre code {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 2;
-	--row-height: 300px;
+	--row-height: 200px;
 	box-sizing: border-box;
 	padding: var(--gap);
 	display:grid;
@@ -752,7 +752,7 @@ pre code {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 2;
-	--row-height: 300px;
+	--row-height: 250px;
 	box-sizing: border-box;
 	padding: var(--gap);
 	display:grid;
