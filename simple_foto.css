@@ -668,7 +668,7 @@ pre code {
 }
 
 .container-foto-text {
-   width: 65%;
+   max-width: 45rem;
    padding: 50px 0;
    margin: 50px auto;
    position: relative;
@@ -701,8 +701,10 @@ pre code {
 	height: 200px;
 	object-fit: contain;
 }
-@media screen and (min-width: 800px) {
 
+
+
+@media screen and (min-width: 900px) {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 2;
