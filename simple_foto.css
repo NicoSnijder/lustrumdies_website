@@ -831,7 +831,7 @@ pre code {
   position: sticky;
   bottom: 10px;
   margin-right:10px;
-  margin-top: calc(100vh - var(--offset));
+  margin-top: calc(80vh + var(--offset));
 
   /* visual styling */
   width:45px;
