@@ -830,8 +830,9 @@ pre code {
 
   position: sticky;
   bottom: -50px;
-  margin-right:50%;
+  margin-right:10px;
   place-self: end;
+  margin-bottom: calc(50vh + var(--offset));
 
   /* visual styling */
   width:45px;
