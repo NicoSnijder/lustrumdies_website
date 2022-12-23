@@ -271,7 +271,7 @@ h1 {
   margin-top: calc(var(--line-height) * 0.2rem);
   margin-bottom: calc(var(--line-height) * 0.2rem);
 
-  color: var(--accent-bg);
+  color: var(--text);
   text-align: center;
 }
 
