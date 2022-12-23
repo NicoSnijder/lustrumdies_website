@@ -725,7 +725,7 @@ pre code {
 }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 500px) {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 2;
@@ -748,7 +748,7 @@ pre code {
 }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 2;
