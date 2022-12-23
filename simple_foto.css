@@ -801,7 +801,7 @@ pre code {
 }
 
 .scroll-top {
-  position: absolute;
+  position: sticky;
   top: 120vh;
   bottom: 2rem;
   right: 1rem;
