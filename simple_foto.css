@@ -807,18 +807,18 @@ pre code {
   place-self: end;
 
   /* visual styling */
-  width:45px;
+  width:10px;
   aspect-ratio:1;
   backdrop-filter: blur(5px);
   border-radius:10px;
 }
 .top:before {
   content:"";
-  position:absolute;
+  position:relative;
   inset:30%;
   transform:translateY(20%) rotate(-45deg);
-  border-top:5px solid var(--text-header);
-  border-right:5px solid var(--text-header);
+  border-top:2px solid var(--text-header);
+  border-right:2px solid var(--text-header);
 }
 @media screen and (min-width: 800px) {
 .top {
