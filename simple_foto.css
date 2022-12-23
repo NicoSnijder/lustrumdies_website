@@ -800,50 +800,40 @@ pre code {
 }
 }
 
-@media screen and (min-width: 800px) {
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    background-color: var(--accent-bg);
-    text-decoration: none;
-}
-.btn::after {
-    content: "↑";
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--bg);
-    transition: margin-top 250ms;
-}
-.btn:hover::after {
-    margin-top:-8px;
-}
-}
 
-.top {
-  --offset: 50px;
-
-  position: sticky;
-  bottom: 10px;
-  margin-right:10px;
-  margin-top: calc(80vh + var(--offset));
-
-  /* visual styling */
-  width:45px;
-  aspect-ratio:1;
-  background:var(--accent-bg);
-  border-radius:10px;
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
 }
-.top:before {
-  content:"";
-  position:absolute;
-  inset:30%;
-  transform:translateY(20%) rotate(-45deg);
-  border-top:5px solid #fff;
-  border-right:5px solid #fff;
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }

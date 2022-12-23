@@ -29,6 +29,9 @@
 
 <body>
 
+<!-- Back to top button -->
+<a id="button"></a>
+
 	<h1>Foto's</h1>
 
 	<h6> Hier vindt u foto's om zich te verheugen op de lustrumdies!</h6>
@@ -58,7 +61,25 @@
 	</div>
 </div>
 
- <a href="#" class="top"></a>
+ <script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+ </script>
+
+
 </body>
 
 <footer>
