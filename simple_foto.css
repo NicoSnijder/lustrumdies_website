@@ -678,8 +678,8 @@ pre code {
 .container-foto {
    width: 100%;
    padding: 0px 0;
-   margin: 0px auto;
-   position: center;
+   margin: auto auto;
+   position: relative;
    overflow: hidden;
 }
 
