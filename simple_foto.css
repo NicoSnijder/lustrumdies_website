@@ -48,8 +48,7 @@ body {
   font-size: var(--base-fontsize);
   line-height: var(--line-height);
   text-align: justify;
-  display: grid;
-  grid-template-columns: auto 0px;
+  display: flex;
   min-height: 100vh;
   flex-direction: column;
   flex: 1;
@@ -829,7 +828,7 @@ pre code {
 .top {
   --offset: 50px;
 
-  position: sticky;
+  position: flex;
   bottom: 10px;
   margin-right:10px;
   place-self: end;
