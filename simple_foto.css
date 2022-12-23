@@ -800,26 +800,26 @@ pre code {
 }
 }
 
-.scroll-top {
-  position: sticky;
-  top: 120vh;
-  bottom: 2rem;
-  right: 1rem;
-}
+.top {
+  --offset: 50px;
 
-.scroll-top__link {
   position: sticky;
-  top: 100vh;
-  margin-top: 100vh;
-  text-decoration:none;
-  border-radius: .25rem;
-  background-color: blue;
-  padding:1rem;
-  color: white;
-  font-weight:700;
-  opacity:.3;
-}
+  bottom: 10px;
+  margin-right:10px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
 
-.scroll-top__link:hover {
-  opacity: initial;
+  /* visual styling */
+  width:45px;
+  aspect-ratio:1;
+  background:var(--accent-bg);
+  border-radius:10px;
+}
+.top:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
 }
