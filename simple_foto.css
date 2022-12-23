@@ -819,6 +819,6 @@ pre code {
   position:absolute;
   inset:30%;
   transform:translateY(20%) rotate(-45deg);
-  border-top:5px solid #fff;
-  border-right:5px solid #fff;
+  border-top:5px solid var(--text-light);
+  border-right:5px solid var(--text-light);
 }
