@@ -800,6 +800,7 @@ pre code {
 }
 }
 
+@media screen and (min-width: 800px) {
 .btn {
     display: flex;
     justify-content: center;
@@ -821,4 +822,5 @@ pre code {
 }
 .btn:hover::after {
     margin-top:-8px;
+}
 }
