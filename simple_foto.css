@@ -38,6 +38,7 @@
 html {
   /* Set the font globally */
   font-family: var(--sans-font);
+  scroll-behavior: smooth;
 }
 
 /* Make the body a nice central block */
@@ -808,14 +809,16 @@ pre code {
     right: 10px;
     width: 50px;
     height: 50px;
-    background-color: #000;
+    background-color: var(--bg);
+    border: 1px;
+    border-color: var(--accent-bg);
     text-decoration: none;
 }
 .btn::after {
     content: "↑";
-    font-size: 32px;
-    font-weight: bold;
-    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--accent-bg);
     transition: margin-top 250ms;
 }
 .btn:hover::after {
