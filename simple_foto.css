@@ -800,6 +800,7 @@ pre code {
 }
 
 
+@media screen and (min-width: 900px) {
 .top {
   --offset: 50px;
 
@@ -821,4 +822,5 @@ pre code {
   transform:translateY(20%) rotate(-45deg);
   border-top:5px solid var(--text-header);
   border-right:5px solid var(--text-header);
+}
 }
