@@ -60,14 +60,14 @@ body {
 }
 
 /* Make the header bg full width, but the content inline with body */
-header {
+.header {
   color: var(--bg);
   border-bottom: 1px solid var(--border);
   padding: 0.2rem, 0.2rem;
   background: var(--accent-bg);
   text-align: center;
   width: 100vw;
-  position: relative;
+  position: fixed;
   box-sizing: border-box;
   left: 50%;
   right: 50%;
@@ -127,7 +127,7 @@ header {
 }
 
 nav {
-  position: sticky;
+  position: absolute;
   text-align: center;
   top: 100%;
   left: 0;
