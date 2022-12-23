@@ -826,7 +826,7 @@ pre code {
 }
 
 .top {
-  --offset: -500px;
+  --offset: -100px;
 
   position: sticky;
   bottom: 10px;
