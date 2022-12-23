@@ -720,5 +720,7 @@ pre code {
 	width: auto;
 	height: 300px;
 	object-fit: contain;
+	border-radius: 5px;
+
 }
 }
