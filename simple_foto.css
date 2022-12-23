@@ -808,9 +808,8 @@ pre code {
 }
 
 .scroll-top__link {
-  position: -webkit-sticky;
   position: sticky;
-  top: 85vh;
+  top: 100vh;
   text-decoration:none;
   border-radius: .25rem;
   background-color: blue;
