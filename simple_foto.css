@@ -825,19 +825,28 @@ pre code {
 }
 }
 
-.top {
-  --offset: 700px;
 
+.container-top {
+  --offset: 100px;
+  --fade: 80px;
+
+  display: flex;
+  align-items: flex-end;
+  width: 60px;
+  justify-self: end;
+  justify-content: flex-end;
+  -webkit-mask:linear-gradient(#0000 calc(100vh + var(--offset)),#000 calc(100vh + var(--offset) + var(--fade)));
+}
+
+.top {
   position: sticky;
-  bottom: 10px;
+  bottom: 20px;
   margin-right:10px;
-  place-self: end;
-  margin-top: var(--offset);
 
   /* visual styling */
-  width:45px;
+  width:100%;
   aspect-ratio:1;
-  background:var(--accent-bg);
+  background:#ff8b24;
   border-radius:10px;
 }
 .top:before {
