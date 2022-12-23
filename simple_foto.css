@@ -828,11 +828,10 @@ pre code {
 .top {
   --offset: 700px;
 
-  position: sticky;
+  position: bottom -50px;
   bottom: 10px;
   margin-right:10px;
   place-self: end;
-  margin-bottom: -10px;
 
   /* visual styling */
   width:45px;
