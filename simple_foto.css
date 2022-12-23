@@ -827,7 +827,7 @@ pre code {
 }
 
 .top {
-  --offset: 50vh;
+  --offset: 50px;
 
   position: sticky;
   bottom: 10px;
