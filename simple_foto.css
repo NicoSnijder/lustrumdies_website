@@ -686,7 +686,7 @@ pre code {
 .image-grid{
 	--gap: 4px;
 	--num-cols: 1;
-	--row-height: 200px;
+	--row-height: 232px;
 	box-sizing: border-box;
 	padding: var(--gap);
 	display:grid;
