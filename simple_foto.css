@@ -786,7 +786,7 @@ pre code {
 
 .image-grid>img {
 	width: auto;
-	height: 350px;
+	height: 300px;
 	object-fit: contain;
 	border-radius: 5px;
 
