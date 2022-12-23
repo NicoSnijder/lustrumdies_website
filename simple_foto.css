@@ -60,7 +60,7 @@ body {
 }
 
 /* Make the header bg full width, but the content inline with body */
-.header {
+header {
   color: var(--bg);
   border-bottom: 1px solid var(--border);
   padding: 0.2rem, 0.2rem;
