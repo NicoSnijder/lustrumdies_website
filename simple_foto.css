@@ -697,8 +697,8 @@ pre code {
 }
 
 .image-grid>img {
-	width: 100vw;
-	height: auto;
+	width: auto;
+	height: 210px;
 	object-fit: contain;
 }
 
