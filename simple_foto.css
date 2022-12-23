@@ -801,7 +801,7 @@ pre code {
 
 
 .top {
-  position: absolute;
+  position: sticky;
   bottom: 10px;
   margin-right:10px;
   place-self: end;
