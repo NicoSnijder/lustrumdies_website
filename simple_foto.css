@@ -825,15 +825,27 @@ pre code {
 }
 }
 
+
 .scroll-top {
-  position: absolute; /* relative to its positioned <main> parent */
-  top: 120vh; /* starts below the bottom of the screen */
-  bottom: 3rem; /* stops scrolling before the end */
-  right: 2rem; /* offset from right hand side */
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
 }
 
 .scroll-top__link {
-  position: -webkit-sticky; /* for Safari */
-  position: sticky; /* 'relative' until element reaches... */
-  top: 90vh; /* 90% viewport height from the top, when it becomes 'fixed' - until its container toggles it back to 'relative' */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  text-decoration:none;
+  border-radius: .25rem;
+  background-color: blue;
+  padding:1rem;
+  color: white;
+  font-weight:700;
+  opacity:.3;
+}
+
+.scroll-top__link:hover {
+  opacity: initial;
 }
