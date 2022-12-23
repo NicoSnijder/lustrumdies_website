@@ -832,7 +832,7 @@ pre code {
   bottom: 10px;
   margin-right:10px;
   place-self: end;
-  margin-bottom: -60px;
+  margin-top: var(--offset);
 
   /* visual styling */
   width:45px;
