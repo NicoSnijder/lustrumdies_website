@@ -832,7 +832,6 @@ pre code {
   bottom: -50px;
   margin-right:10px;
   place-self: end;
-  margin-top: calc(100vh + var(--offset));
 
   /* visual styling */
   width:45px;
