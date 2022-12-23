@@ -829,7 +829,6 @@ pre code {
   --offset: 0px;
 
   position: sticky;
-  bottom: -50px;
   margin-right:10px;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
