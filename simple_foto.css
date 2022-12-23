@@ -272,6 +272,7 @@ h1 {
   margin-bottom: calc(var(--line-height) * 0.2rem);
 
   color: var(--text);
+  font-weight: 800;
   text-align: center;
 }
 
@@ -306,6 +307,7 @@ h5 {
 h6 {
   font-size: calc(var(--base-fontsize) / var(--header-scale));
   margin-top: calc(var(--line-height) * 1.5rem);
+  text-align: center;
 }
 
 /* Format links & buttons */
