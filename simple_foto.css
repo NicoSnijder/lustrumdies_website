@@ -833,7 +833,7 @@ pre code {
   margin-right:10px;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
-  scroll-padding-bottom: -90vh;
+
   /* visual styling */
   width:45px;
   aspect-ratio:1;
