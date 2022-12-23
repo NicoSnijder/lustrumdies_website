@@ -801,7 +801,7 @@ pre code {
 
 
 .top {
-  position: relative;
+  position: absolute;
   bottom: 10px;
   margin-right:10px;
   place-self: end;
@@ -814,11 +814,11 @@ pre code {
 }
 .top:before {
   content:"";
-  position:relative;
+  position:absolute;
   inset:30%;
   transform:translateY(20%) rotate(-45deg);
-  border-top:2px solid var(--text-header);
-  border-right:2px solid var(--text-header);
+  border-top:5px solid var(--text-header);
+  border-right:5px solid var(--text-header);
 }
 @media screen and (min-width: 800px) {
 .top {
