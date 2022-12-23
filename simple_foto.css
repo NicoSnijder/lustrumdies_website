@@ -811,7 +811,7 @@ pre code {
   /* visual styling */
   width:45px;
   aspect-ratio:1;
-  background:var(--accent-bg);
+  background:none;
   border-radius:10px;
 }
 .top:before {
