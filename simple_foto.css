@@ -67,7 +67,7 @@ body {
   background: var(--accent-bg);
   text-align: center;
   width: 100vw;
-  position: fixed;
+  position: relative;
   box-sizing: border-box;
   left: 50%;
   right: 50%;
