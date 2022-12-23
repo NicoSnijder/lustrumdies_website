@@ -820,5 +820,5 @@ pre code {
   inset:30%;
   transform:translateY(20%) rotate(-45deg);
   border-top:5px solid var(--text-light);
-  border-right:5px solid var(--text-light);
+  border-right:5px solid var(--accent-bg);
 }
