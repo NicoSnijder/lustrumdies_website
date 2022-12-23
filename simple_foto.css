@@ -810,6 +810,7 @@ pre code {
 .scroll-top__link {
   position: sticky;
   top: 100vh;
+  margin-top: 100vh;
   text-decoration:none;
   border-radius: .25rem;
   background-color: blue;
