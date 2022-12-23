@@ -777,7 +777,6 @@ pre code {
 }
 }
 
-@media screen and (min-width: 900px) {
 .image-grid{
 	--gap: 8px;
 	--num-cols: 2;
@@ -805,6 +804,30 @@ pre code {
 
   position: sticky;
   bottom: 10px;
+  margin-right:10px;
+  place-self: end;
+
+  /* visual styling */
+  width:45px;
+  aspect-ratio:1;
+  backdrop-filter: blur(5px);
+  border-radius:10px;
+}
+.top:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid var(--text-header);
+  border-right:5px solid var(--text-header);
+}
+
+@media screen and (min-width: 900px) {
+.top {
+  --offset: 50px;
+
+  position: sticky;
+  bottom: 10px;
   margin-right:-45px;
   place-self: end;
 
@@ -821,4 +844,5 @@ pre code {
   transform:translateY(20%) rotate(-45deg);
   border-top:5px solid var(--text-header);
   border-right:5px solid var(--text-header);
+}
 }
