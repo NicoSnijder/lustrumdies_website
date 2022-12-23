@@ -807,7 +807,7 @@ pre code {
   place-self: end;
 
   /* visual styling */
-  width:10px;
+  width:45px;
   aspect-ratio:1;
   backdrop-filter: blur(5px);
   border-radius:10px;
