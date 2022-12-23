@@ -48,7 +48,8 @@ body {
   font-size: var(--base-fontsize);
   line-height: var(--line-height);
   text-align: justify;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 0px;
   min-height: 100vh;
   flex-direction: column;
   flex: 1;
