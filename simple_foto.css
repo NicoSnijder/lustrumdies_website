@@ -797,22 +797,3 @@ pre code {
 
 }
 }
-/*Floating Back-To-Top Button*/
-    #myBtn {
-        position: fixed;
-        bottom: 10px;
-        float: right;
-        right: 4rem;
-        max-width: 60px;
-        width: 100%;
-        font-size: 1rem;
-        border-color: var(--accent-bg);
-        background-color: var(--bg);
-        padding: .5px;
-        border-radius: 5px;
-
-    }
-/*On Hover Color Change*/
-    #myBtn:hover {
-        background-color: var(--accent-bg);
-    }
