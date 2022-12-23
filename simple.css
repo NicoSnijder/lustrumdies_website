@@ -68,7 +68,7 @@ header {
   background: var(--accent-bg);
   text-align: center;
   width: 100vw;
-  position: relative;
+  position: sticky;
   box-sizing: border-box;
   left: 50%;
   right: 50%;
@@ -178,7 +178,7 @@ nav a:hover {
 
 .logo img {
     grid-column: 2 / 3;
-    max-height: 90px;
+    max-height: 60px;
     }
 
 
@@ -194,6 +194,7 @@ nav a:hover {
 
   .logo img {
     grid-column: 2 / 3;
+    max-height: 90px;
     }
 
   nav {
