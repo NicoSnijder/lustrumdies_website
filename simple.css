@@ -783,7 +783,7 @@ pre code {
 
   position: sticky;
   bottom: 10px;
-  margin-right:-45px;
+  margin-right:10px;
   place-self: end;
 
   /* visual styling */
