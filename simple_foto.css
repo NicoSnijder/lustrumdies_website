@@ -805,7 +805,7 @@ pre code {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: sticky;
     bottom: 10px;
     right: 10px;
     width: 50px;
@@ -823,29 +823,4 @@ pre code {
 .btn:hover::after {
     margin-top:-8px;
 }
-}
-
-
-.scroll-top {
-  position: absolute;
-  top: 120vh;
-  bottom: 2rem;
-  right: 1rem;
-}
-
-.scroll-top__link {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 85vh;
-  text-decoration:none;
-  border-radius: .25rem;
-  background-color: blue;
-  padding:1rem;
-  color: white;
-  font-weight:700;
-  opacity:.3;
-}
-
-.scroll-top__link:hover {
-  opacity: initial;
 }
