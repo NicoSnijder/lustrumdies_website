@@ -700,6 +700,7 @@ pre code {
 	width: auto;
 	height: 232px;
 	object-fit: contain;
+	border-radius: 5px;
 }
 
 @media screen and (min-width: 400px) {
