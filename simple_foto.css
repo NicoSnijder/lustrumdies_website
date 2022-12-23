@@ -728,7 +728,7 @@ pre code {
 @media screen and (min-width: 600px) {
 .image-grid{
 	--gap: 8px;
-	--num-cols: 1;
+	--num-cols: 2;
 	--row-height: 300px;
 	box-sizing: border-box;
 	padding: var(--gap);
@@ -741,7 +741,7 @@ pre code {
 
 .image-grid>img {
 	width: auto;
-	height: 300px;
+	height: 200px;
 	object-fit: contain;
 	border-radius: 5px;
 
