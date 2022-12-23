@@ -828,7 +828,8 @@ pre code {
 .top {
   --offset: 0px;
 
-  bottom: 10px;
+  position: sticky;
+  bottom: -50px;
   margin-right:10px;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
