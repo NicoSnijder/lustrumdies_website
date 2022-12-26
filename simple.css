@@ -791,7 +791,7 @@ pre code {
   width:45px;
   aspect-ratio:1;
   backdrop-filter: blur(3px);
-  border-radius:10px;
+  border-radius:45px;
 }
 .top:before {
   content:"";
