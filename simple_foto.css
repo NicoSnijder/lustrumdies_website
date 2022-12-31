@@ -306,8 +306,14 @@ h4 {
 }
 
 h5 {
-  font-size: var(--base-fontsize);
-  margin-top: calc(var(--line-height) * 1.5rem);
+  font-size: calc(
+    var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
+      var(--header-scale) * var(--header-scale)
+  );
+  margin-top: 0px;
+  margin-bottom: calc(var(--line-height) * 0.2rem);
+
+  color: var(--accent-bg);
 }
 
 h6 {
