@@ -311,7 +311,7 @@ h5 {
       var(--header-scale) * var(--header-scale)
   );
   margin-top: 0px;
-  margin-bottom: calc(var(--line-height) * 0.2rem);
+  margin-bottom: 0px);
 
   color: var(--accent-bg);
 }
