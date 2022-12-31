@@ -76,6 +76,10 @@ header {
   margin-right: -50vw;
 }
 
+.sticky-section{
+  position:sticky;
+  top: 0px;
+}
 
 /* navigation styles start here */
 
