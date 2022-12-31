@@ -679,7 +679,7 @@ pre code {
 }
 
 
-.container {
+.container body {
    width: 95%;
    padding: 50px 0;
    margin: 50px auto;
