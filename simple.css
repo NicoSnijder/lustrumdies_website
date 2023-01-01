@@ -77,11 +77,6 @@ header {
   margin-right: -50vw;
 }
 
-.sticky-section{
-  position:sticky;
-  top: 0px;
-}
-
 /* navigation styles start here */
 
 
@@ -679,7 +674,7 @@ pre code {
 }
 
 
-.container body {
+.container {
    width: 95%;
    padding: 50px 0;
    margin: 50px auto;
@@ -689,7 +684,7 @@ pre code {
 
 .container:before {
    content: '';
-   position: relative;
+   position: absolute;
    top: 0;
    left: 10%;
    margin-left: -1px;
