@@ -278,11 +278,9 @@ h1 {
 
 h2 {
   font-weight: 1000;
-  font-size: clamp(1.5rem, 10vw, 4rem);
+  font-size: clamp(2rem, 10vw, 4rem);
   margin-top: calc(var(--line-height) * 1.5rem);
   margin-bottom: calc(var(--line-height) * 0.5rem);
-  color: var(--accent-bg);
-
 }
 
 h3 {
