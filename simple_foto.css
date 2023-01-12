@@ -686,7 +686,7 @@ pre code {
 .container-foto {
    width: 150%;
    padding: 0px 0;
-   margin: auto auto;
+   margin: -50% auto;
    position: relative;
    overflow: hidden;
 }
