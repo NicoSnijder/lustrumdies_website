@@ -277,12 +277,12 @@ h1 {
 }
 
 h2 {
+  font-weight: 900;
   font-size: calc(
     var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
       var(--header-scale)
   );
   margin-top: calc(var(--line-height) * 1.5rem);
-  font-weight:800;
 }
 
 h3 {
