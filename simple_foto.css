@@ -53,7 +53,7 @@ body {
   flex-direction: column;
   flex: 1;
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 40rem;
   padding: 0 0.5rem;
   overflow-x: hidden;
   word-break: break-word;
@@ -676,7 +676,7 @@ pre code {
 }
 
 .container-foto-text {
-   max-width: 40rem;
+   max-width: 45rem;
    padding: 50px 0;
    margin: 50px auto;
    position: relative;
@@ -684,7 +684,7 @@ pre code {
 }
 
 .container-foto {
-   width: 100%;
+   width: 150%;
    padding: 0px 0;
    margin: auto auto;
    position: relative;
