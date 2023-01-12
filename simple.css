@@ -278,10 +278,7 @@ h1 {
 
 h2 {
   font-weight: 900;
-  font-size: calc(
-    var(--base-fontsize) * var(--header-scale) * var(--header-scale) *
-      var(--header-scale)
-  );
+  font-size: clamp(1.15rem, 10vw, 4rem);
   margin-top: calc(var(--line-height) * 1.5rem);
 }
 
