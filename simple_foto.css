@@ -19,7 +19,7 @@
     --accent-bg: #5e0d07;
     --text: #212121;
     --text-header: #7c0a02;
-    --text-light: #3d3b3b;
+    --text-light: #232A39;
     /*--border: #232A39;*/
     --border: #680902;
     --accent: #680902;
@@ -283,7 +283,6 @@ h2 {
   font-size: clamp(2rem, 10vw, 4rem);
   margin-top: calc(var(--line-height) * 1.5rem);
   margin-bottom: calc(var(--line-height) * 0.5rem);
-  color: var(--text-light);
 }
 
 h3 {
