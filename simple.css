@@ -738,6 +738,7 @@ pre code {
 
 .timeline-content img {
    max-width: 95%;
+   border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
