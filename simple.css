@@ -736,6 +736,9 @@ pre code {
    color: var(--text);
 }
 
+.timeline-content img {
+   max-width: 95%;
+}
 
 @media screen and (max-width: 768px) {
    .container:before {
