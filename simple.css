@@ -763,3 +763,118 @@ pre code {
    z-index: 9999;
    }
 }
+
+/*programma*/
+
+.container {
+   width: 95%;
+   padding: 50px 0;
+   margin: 50px auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.container:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 10%;
+   margin-left: -1px;
+   width: 2px;
+   height: 100%;
+   background: var(--text);
+   z-index: 1;
+}
+
+.timeline-block {
+   width: calc(94% + 7px);
+   display: flex;
+   justify-content: space-between;
+   clear: both;
+}
+
+.timeline-block-right {
+   float: right;
+}
+
+.marker {
+        position: absolute;
+        top: 0; bottom: 0; left: 0;
+        width: 15px;
+        &:before {
+            background: $primary-color;
+            border: 3px solid transparent;
+            border-radius: 100%;
+            content: "";
+            display: block;
+            height: 15px;
+            position: absolute;
+            top: 4px; left: 0;
+            width: 15px;
+            transition: background 0.3s ease-in-out,
+                    border 0.3s ease-in-out;
+        }
+        &:after {
+            content: "";
+            width: 3px;
+            background: #CCD5DB;
+            display: block;
+            position: absolute;
+            top: 24px; bottom: 0; left: 6px;
+        }
+        .timeline-item:last-child &:after {
+            content: none;
+        }
+    }
+
+
+   .timeline-content {
+   width: 100%;
+   padding: 0 15px;
+   color: var(--text);
+}
+
+.timeline-content h3 {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 25px;
+   font-weight: 800
+}
+
+.timeline-content span {
+   font-size: calc(var(--base-fontsize) / var(--header-scale));
+   margin-top: calc(var(--line-height) * 1.5rem);
+   color: var(--text);
+}
+
+.timeline-content p {
+   color: var(--text);
+}
+
+.timeline-content img {
+   max-width: 95%;
+   border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+   .container:before {
+      left: 25px;
+      width: 2px;
+   }
+   .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   .timeline-block-right {
+      float: none;
+   }
+
+   .marker img {
+   width: 50px;
+   border-radius: 50%;
+   border: 2px solid var(--text);
+   margin-top: 10px;
+   position: relative;
+   z-index: 9999;
+   }
+}
