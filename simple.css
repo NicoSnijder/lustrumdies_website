@@ -316,6 +316,7 @@ h6 {
 /* Format links & buttons */
 a,
 a:visited {
+  text-decoration: underline;
   color: var(--link);
 }
 
