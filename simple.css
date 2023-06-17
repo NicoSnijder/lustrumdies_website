@@ -392,7 +392,7 @@ input[type="radio"]:enabled:hover {
 /* Format the expanding box */
 details {
   background: var(--bg);
-  border: 1px solid var(--bg);
+  border: 1px solid var(--border);
   border-radius: 5px;
   margin-bottom: 1rem;
 }
