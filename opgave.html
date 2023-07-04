@@ -37,6 +37,7 @@
 	</p>
 
         <h2>Wit u zich opgeven?</h2>
+
 	<p>
 	Amice, amica, de Lustrumdies van F.Q.I. komt dichterbij. Als u op deze
 	pagina gekomen bent, hebt u een positieve reactie op onze site
@@ -168,30 +169,7 @@
 
 	<h2>Opgavenformulier</h2>
 
-<form name="opgave" method="POST" data-netlify="true" action="/bedankto">
-  <p>
-    <label>Naam<input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Ik geef me graag op voor<select name="opgave" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
-
-
-	<form name="opgave" action="/bedankto" method="POST" data-netlify="true">
+	<form name="opgave" class="contact-form with normal" action="/bedankto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
    <input type="hidden" name="form-name" value="contact" />
 
    <div class="form-group">
@@ -208,13 +186,14 @@
       </div>
    </div>
 
+
   <div class="form-group">
-      <label class="col-md-4 control-label" for="Opgave"></label>
+      <label class="col-md-4 control-label" for="Message"></label>
       <div class="col-md-4">
 	      <h3>Ik geef me graag op voor</h3>
-	<input type="radio" name="Opgave" value="Traditionele dies">De traditionele dies
+	<input type="radio" name="Message" value="Traditionele dies">De traditionele dies
 	</br>
-	<input type="radio" name="Opgave" value="Avondfeest">Het avondfeest</br>
+	<input type="radio" name="Message" value="Avondfeest">Het avondfeest</br>
 	</br>
 	</div>
    </div>
@@ -233,7 +212,9 @@ Kosten, c.a. 90 Euro.</p>
 	Kosten, c.a. 40 Euro.</p>
 </details>
 
+<div class="form-group">
       <label class="col-md-4 control-label" for="Message"></label>
+      <div class="col-md-4">
 	      <h4>Dates</h4>
 	      <p>
 	      Indien het aantal aanmeldingen het toelaat, neem u dan een date
@@ -244,6 +225,8 @@ Kosten, c.a. 90 Euro.</p>
 	<input type="radio" name="Message" value="Geen date">Ik ben het niet van
 	plan</br>
 	</br>
+	</div>
+   </div>
 
 <div class="form-group">
       <label class="col-md-4 control-label" for="Message"></label>
