@@ -172,20 +172,34 @@
 
 	<h2>Opgaveformulier</h2>
 
-<form name="opgave" method="POST" data-netlify="true">
-  <p>
-    <label for="name"><input type="text" placeholder="Naam" name="name" required="" /></label>
-  </p>
-  <p>
-    <label for="email"><input type="email" placeholder="Mailadres" name="email" required=""/></label>
-  </p>
+	<form name="opgave" class="contact-form with normal" action="/bedankto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+   <input type="hidden" name="form-name" value="contact" />
 
-  <h3>Ik geef me graag op voor</h3>
-  <p>
-    <label for="opgave">
-		    <input type="radio" name="Opgave" value="Traditioneel">De traditionele dies</br>
-	<input type="radio" name="Opgave" value="Avondfeest">Het avondfeest</br>
-  </p>
+   <div class="form-group">
+      <label class="col-md-4 control-label" for="Name"></label>
+      <div class="col-md-4">
+          <input id="contact-form-name" name="Name" type="text" placeholder="Naam" class="form-control input-md" required="" autocomplete="off">
+      </div>
+   </div>
+
+   <div class="form-group">
+      <label class="col-md-4 control-label" for="Email"></label>
+      <div class="col-md-4">
+          <input id="contact-form-email" name="Email" type="email" placeholder="Mailadres" class="form-control input-md" required="" autocomplete="off">
+      </div>
+   </div>
+
+
+  <div class="form-group">
+      <label class="col-md-4 control-label" for="Message"></label>
+      <div class="col-md-4">
+	      <h3>Ik geef me graag op voor</h3>
+	<input type="radio" name="Message" value="Traditionele dies">De traditionele dies
+	</br>
+	<input type="radio" name="Message" value="Avondfeest">Het avondfeest</br>
+	</br>
+	</div>
+   </div>
 
 <details>
 	<summary><em>Traditionele</em> dies</summary>
@@ -201,33 +215,47 @@ Kosten, c.a. 90 Euro.</p>
 	Kosten, c.a. 40 Euro.</p>
 </details>
 
-<h3>Dates</h3>
-  	<p>
-	Indien het aantal aanmeldingen het toelaat, neem u dan een date
-	mee?
-	</p>
-  <p>
-    <label for="dates">
-		    <input type="radio" name="Date" value="wel_date">Ja, dat lijkt me erg leuk!</br>
-	<input type="radio" name="Date" value="geen_date">Ik ben het niet van plan</br>
-  </p>
+<div class="form-group">
+      <label class="col-md-4 control-label" for="Message"></label>
+      <div class="col-md-4">
+	      <h4>Dates</h4>
+	      <p>
+	      Indien het aantal aanmeldingen het toelaat, neem u dan een date
+	      mee?
+	      </p>
+	<input type="radio" name="Message" value="Wel date">Ja, dat lijkt me erg
+	leuk!</br>
+	<input type="radio" name="Message" value="Geen date">Ik ben het niet van
+	plan</br>
+	</br>
+	</div>
+   </div>
 
-  <h3>Almanak</h3>
-  <p>
+<div class="form-group">
+      <label class="col-md-4 control-label" for="Message"></label>
+      <div class="col-md-4">
+	      <h4>Almanak</h4>
+	      <p>
 	      Wilt u de laatste almanak van F.Q.I. aanschaffen?
 	      </p>
-  <p>
-    <label for="almanak">
-		    <input type="radio" name="Almanak" value="Wel_almanak">Ja, ik wil graag de laatste almanak</br>
-	<input type="radio" name="Opgave" value="Geen_almanak">Nee, ik heb er geen belang bij</br>
-  </p>
+	<input type="radio" name="Message" value="Wel almanak">Ja, ik wil graag
+	de laatste almanak</br>
+	<input type="radio" name="Message" value="Geen almanak">Nee, ik heb er
+	geen belang bij</br>
+	</br>
+	</div>
+   </div>
 
-  <p>
-    <label for="message"><textarea name="Message" type="text" placeholder="Overige opmerkingen" rows="8" name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit" value="Submit" id="Form-Submit">Verstuur</button>
-  </p>
+
+   <div class="form-group">
+      <label class="col-md-4 control-label" for=""></label>
+      <textarea class="form-control" id="contact-form-message" name="Message"
+	      type="text" placeholder="Overige opmerkingen" rows="8"></textarea>
+   </div>
+
+   <div class="form-group">
+      <button type="submit" value="Submit" id="Form-Submit">Verstuur</button>
+   </div>
 </form>
 
 </body>
