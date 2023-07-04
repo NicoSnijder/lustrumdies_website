@@ -179,11 +179,49 @@
   <p>
     <label for="email"><input type="email" placeholder="Mailadres" name="email" required=""/></label>
   </p>
+
+  <h3>Ik geef me graag op voor</h3>
   <p>
     <label for="opgave">
-		    <input type="radio" name="Opgave[]" value="Traditionele dies">De traditionele dies</br>
-	<input type="radio" name="Opgave[]" value="Avondfeest">Het avondfeest</br>
+		    <input type="radio" name="Opgave" value="Traditioneel">De traditionele dies</br>
+	<input type="radio" name="Opgave" value="Avondfeest">Het avondfeest</br>
   </p>
+
+<details>
+	<summary><em>Traditionele</em> dies</summary>
+<p>Een dies met alles erop en eraan. Een receptie, vergadering, tijd voor
+ontmoeting en een drie gangen diner. En ten slotte nog een avondfeest.</br>
+Kosten, c.a. 90 Euro.</p>
+</details>
+
+<details>
+	<summary>Avondfeest</summary>
+	<p>Sluit om <strong>20:30</strong> aan bij het avondfeest en ontmoet uw amice of amica en praat elkaar bij onder genot van een drankje en
+	een hapje.</br>
+	Kosten, c.a. 40 Euro.</p>
+</details>
+
+<h3>Dates</h3>
+  	<p>
+	Indien het aantal aanmeldingen het toelaat, neem u dan een date
+	mee?
+	</p>
+  <p>
+    <label for="dates">
+		    <input type="radio" name="Date" value="wel_date">Ja, dat lijkt me erg leuk!</br>
+	<input type="radio" name="Date" value="geen_date">Ik ben het niet van plan</br>
+  </p>
+
+  <h3>Almanak</h3>
+  <p>
+	      Wilt u de laatste almanak van F.Q.I. aanschaffen?
+	      </p>
+  <p>
+    <label for="almanak">
+		    <input type="radio" name="Almanak" value="Wel_almanak">Ja, ik wil graag de laatste almanak</br>
+	<input type="radio" name="Opgave" value="Geen_almanak">Nee, ik heb er geen belang bij</br>
+  </p>
+
   <p>
     <label for="message"><textarea name="Message" type="text" placeholder="Overige opmerkingen" rows="8" name="message"></textarea></label>
   </p>
