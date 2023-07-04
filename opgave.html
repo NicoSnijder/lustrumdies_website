@@ -172,92 +172,24 @@
 
 	<h2>Opgaveformulier</h2>
 
-	<form name="opgave" class="contact-form with normal" action="/bedankto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-   <input type="hidden" name="form-name" value="opgave" />
-
-   <div class="form-group">
-      <label class="col-md-4 control-label" for="Name"></label>
-      <div class="col-md-4">
-          <input id="contact-form-name" name="Name" type="text" placeholder="Naam" class="form-control input-md" required="" autocomplete="off">
-      </div>
-   </div>
-
-   <div class="form-group">
-      <label class="col-md-4 control-label" for="Email"></label>
-      <div class="col-md-4">
-          <input id="contact-form-email" name="Email" type="email" placeholder="Mailadres" class="form-control input-md" required="" autocomplete="off">
-      </div>
-   </div>
-
-
-  <div class="form-group">
-      <label class="col-md-4 control-label" for="Opgave"></label>
-      <div class="col-md-4">
-	      <h3>Ik geef me graag op voor</h3>
-	<input type="radio" name="Opgave" value="Traditionele dies">De traditionele dies
-	</br>
-	<input type="radio" name="Opgave" value="Avondfeest">Het avondfeest</br>
-	</br>
-	</div>
-   </div>
-
-<details>
-	<summary><em>Traditionele</em> dies</summary>
-<p>Een dies met alles erop en eraan. Een receptie, vergadering, tijd voor
-ontmoeting en een driegangendiner. En ten slotte nog een avondfeest.</br>
-Kosten, c.a. 90 Euro.</p>
-</details>
-
-<details>
-	<summary>Avondfeest</summary>
-	<p>Sluit om <strong>20:30</strong> aan bij het avondfeest en ontmoet uw amice of amica en praat elkaar bij onder genot van een drankje en
-	een hapje.</br>
-	Kosten, c.a. 40 Euro.</p>
-</details>
-
-<div class="form-group">
-      <label class="col-md-4 control-label" for="Dates"></label>
-      <div class="col-md-4">
-	      <h4>Dates</h4>
-	      <p>
-	      Indien het aantal aanmeldingen het toelaat, neem u dan een date
-	      mee?
-	      </p>
-	<input type="radio" name="Dates" value="Wel date">Ja, dat lijkt me erg
-	leuk!</br>
-	<input type="radio" name="Dates" value="Geen date">Ik ben het niet van
-	plan</br>
-	</br>
-	</div>
-   </div>
-
-
-<div class="form-group">
-      <label class="col-md-4 control-label" for="Almanak"></label>
-      <div class="col-md-4">
-	      <h4>Almanak</h4>
-	      <p>
-	      Wilt u de laatste almanak van F.Q.I. aanschaffen?
-	      </p>
-	<input type="radio" name="Almanak" value="Wel almanak">Ja, ik wil graag
-	de laatste almanak</br>
-	<input type="radio" name="Almanak" value="Geen almanak">Nee, ik heb er
-	geen belang bij</br>
-	</br>
-	</div>
-   </div>
-
-
-
-   <div class="form-group">
-      <label class="col-md-4 control-label" for=""></label>
-      <textarea class="form-control" id="contact-form-message" name="Message"
-	      type="text" placeholder="Overige opmerkingen" rows="8"></textarea>
-   </div>
-
-   <div class="form-group">
-      <button type="submit" value="Submit" id="Form-Submit">Verstuur</button>
-   </div>
+<form name="opgave" method="POST" data-netlify="true">
+  <p>
+    <label for="name"><input type="text" placeholder="Naam" name="name" required="" /></label>
+  </p>
+  <p>
+    <label for="email"><input type="email" placeholder="Mailadres" name="email" required=""/></label>
+  </p>
+  <p>
+    <label for="opgave"><select name="Opgave[]" multiple>
+		    <input type="radio" name="Message" value="Traditionele dies">De traditionele dies</br>
+	<input type="radio" name="Message" value="Avondfeest">Het avondfeest</br>
+  </p>
+  <p>
+    <label for="message"><textarea name="Message" type="text" placeholder="Overige opmerkingen" rows="8" name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit" value="Submit" id="Form-Submit">Verstuur</button>
+  </p>
 </form>
 
 </body>
