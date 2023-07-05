@@ -492,6 +492,7 @@ input[type="radio"] {
   position: relative;
 }
 
+input[type="checkbox"],
 input[type="radio"] {
   border-radius: 100%;
 }
@@ -501,9 +502,9 @@ input[type="radio"]:checked {
   background: var(--accent);
 }
 
-input[type="checkbox"]:checked::after {
+/*input[type="checkbox"]:checked::after {*/
   /* Creates a rectangle with colored right and bottom borders which is rotated to look like a check mark */
-  content: " ";
+/*  content: " ";
   width: 0.1em;
   height: 0.25em;
   border-radius: 0;
@@ -515,7 +516,8 @@ input[type="checkbox"]:checked::after {
   border-bottom: solid var(--bg) 0.08em;
   font-size: 1.8em;
   transform: rotate(45deg);
-}
+}*/
+input[type="checkbox"],
 input[type="radio"]:checked::after {
   /* creates a colored circle for the checked radio button  */
   content: " ";
