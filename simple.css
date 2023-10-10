@@ -797,5 +797,6 @@ pre code {
   margin:0;
   font-family:tahoma,arial,helvetica;
   font-size:16px;
+  font-weight: bold;
   color: var(--link);
 }
