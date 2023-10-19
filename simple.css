@@ -437,6 +437,7 @@ th {
 
 th {
   background: var(--accent-bg);
+  color: var(--ling);
   font-weight: bold;
 }
 
