@@ -446,7 +446,7 @@ th {
 
 tr:nth-child(even) {
   /* Set every other cell slightly darker. Improves readability. */
-  background: var(--accent-bg);
+  background: var(--preformatted);
 }
 
 table caption {
