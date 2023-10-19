@@ -437,8 +437,9 @@ th {
 
 th {
   background: var(--accent-bg);
-  color: var(--ling);
+  color: var(--link);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 tr:nth-child(even) {
