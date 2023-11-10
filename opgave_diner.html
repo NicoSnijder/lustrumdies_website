@@ -41,7 +41,7 @@
 
 	<h2>Opgaveformulier Diner</h2>
 
-	<form name="opgave" class="contact-form with normal" action="/bedankto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+	<form name="diner" class="contact-form with normal" action="/bedankto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
    <input type="hidden" name="form-name" value="opgave" />
 
    <div class="form-group">
@@ -55,7 +55,7 @@
       <label class="col-md-4 control-label" for="Voorgerecht" name="Voorgerecht"></label>
       <div class="col-md-4">
 	      <h3>Voorgerecht</h3>
-	<input type="radio" name="Vooregerecht" value="Vis">Vis
+	<input type="radio" name="Vooregerecht" value="Vis" required>Vis
 	</br>
 	<input type="radio" name="Vooregerecht" value="Vlees">Vlees
 	</br>
@@ -69,7 +69,7 @@
 	      name="Hoofdgerecht"></label>
       <div class="col-md-4">
 	      <h3>Hoofdgerecht</h3>
-	<input type="radio" name="Hoofdgerecht" value="Vis">Vis
+	<input type="radio" name="Hoofdgerecht" value="Vis" required>Vis
 	</br>
 	<input type="radio" name="Hoofdgerecht" value="Vlees">Vlees
 	</br>
@@ -82,7 +82,7 @@
       <label class="col-md-4 control-label" for="Nagerecht" name="Nagerecht"></label>
       <div class="col-md-4">
 	      <h3>Nagerecht</h3>
-	<input type="radio" name="Nagerecht" value="Vis">Vis
+	<input type="radio" name="Nagerecht" value="Vis" required>Vis
 	</br>
 	<input type="radio" name="Nagerecht" value="Vlees">Vlees
 	</br>
@@ -93,8 +93,25 @@
 
 <h3>Date</h3>
 
+<p>Neemt u een date mee?</p>
+
+  <div class="form-group">
+      <label class="col-md-4 control-label" for="Voorgerecht-date"
+	      name="Voorgerecht-date"></label>
+      <div class="col-md-4">
+	<input type="radio" name="Vooregerecht-date" value="Wel date">Ja, ik
+	neem een date mee
+	</br>
+	<input type="radio" name="Vooregerecht-date" value="Geen dage">Nee, ik
+	kom alleen
+	</br>
+	</div>
+   </div>
+
 <p>Indien u een date meeneemt naar de Lustrum Dies, geef uw date en zijn/haar
 voorkeur voor het eten hieronder op</p>
+
+
 
    <div class="form-group">
       <label class="col-md-4 control-label" for="Name_date"></label>
