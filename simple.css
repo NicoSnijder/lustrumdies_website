@@ -611,7 +611,7 @@ main video {
   border-radius: 5px;
 }*/
 
-body img,
+/*body img,
 body video {
   display: block;
   margin-left: auto;
@@ -619,13 +619,136 @@ body video {
   max-width: 35rem;
   height: auto;
   border-radius: 5px;
-}
+}*/
 
 /*img{
   max-width: 100%;
   height: auto;
   border-radius: 5px;
 }*/
+
+/*IMAGE*/
+
+.container-foto {
+   width: 100%;
+   padding: 0px 0;
+   margin: auto auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.image-grid{
+	--gap: 4px;
+	--num-cols: 1;
+	--row-height: 232px;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display:grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	align-content: center;
+}
+
+.image-grid>img {
+	width: auto;
+	height: 232px;
+	object-fit: contain;
+	border-radius: 5px;
+}
+
+@media screen and (min-width: 400px) {
+.image-grid{
+	--gap: 8px;
+	--num-cols: 1;
+	--row-height: 250px;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display:grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	align-content: center;
+}
+
+.image-grid>img {
+	width: auto;
+	height: 250px;
+	object-fit: contain;
+	border-radius: 5px;
+
+}
+}
+
+@media screen and (min-width: 600px) {
+.image-grid{
+	--gap: 8px;
+	--num-cols: 2;
+	--row-height: 200px;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display:grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	align-content: center;
+}
+
+.image-grid>img {
+	width: auto;
+	height: 200px;
+	object-fit: contain;
+	border-radius: 5px;
+
+}
+}
+
+@media screen and (min-width: 800px) {
+.image-grid{
+	--gap: 8px;
+	--num-cols: 2;
+	--row-height: 250px;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display:grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	align-content: center;
+}
+
+.image-grid>img {
+	width: auto;
+	height: 250px;
+	object-fit: fill;
+	border-radius: 5px;
+
+}
+}
+
+@media screen and (min-width: 900px) {
+.image-grid{
+	--gap: 8px;
+	--num-cols: 2;
+	--row-height: 300px;
+	box-sizing: border-box;
+	padding: var(--gap);
+	display:grid;
+	grid-template-columns: repeat(var(--num-cols), 1fr);
+	grid-auto-rows: var(--row-height);
+	gap: var(--gap);
+	align-content: center;
+}
+
+.image-grid>img {
+	width: auto;
+	height: 300px;
+	object-fit: fill;
+	border-radius: 5px;
+
+}
+}
+
 
 figure {
   margin: 0;
